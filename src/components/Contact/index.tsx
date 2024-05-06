@@ -1,6 +1,5 @@
 "use client"
 import NewsLatterBox from "./NewsLatterBox";
-import { Resend } from 'resend';
 import { useEffect, useState } from "react";
 
 
