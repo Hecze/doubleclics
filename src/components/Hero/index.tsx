@@ -33,6 +33,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
