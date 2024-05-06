@@ -8,9 +8,9 @@ const Hero = () => {
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
+          <div className="-mx-4 flex flex-wrap ">
+            <div className="pl-4 w-1/2 min-w-[350px] mx-auto">
+              <div className="mx-auto max-w-[600px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Reduce costs and improve reliability with IT operations automation.
                 </h1>
@@ -33,7 +33,13 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            
+            <div className="w-1/2 min-w-[350px] mx-auto">
+              <img
+                src="/images/hero/automation.svg"
+                alt="Hero"
+                className="mx-auto mt-10 w-full max-w-[750px] sm:mt-0"
+              />
+            </div>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
