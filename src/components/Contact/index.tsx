@@ -13,7 +13,8 @@ const [message, setMessage] = useState('');
 const [subject, setSubject] = useState('');
 
 const handleSend = async (e: { preventDefault: () => void; }) => {
-  e.preventDefault();
+   e.preventDefault();
+
   if (!email || !name || !message) {
     console.error("All fields are required");
     return;
@@ -31,10 +32,15 @@ const handleSend = async (e: { preventDefault: () => void; }) => {
 
   if (res.ok) {
     console.log('Message sent successfully');
+    setEmail('');
+    setName('');
+    setMessage('');
+    
     console.log(res)
   } else {
     console.log('Message not sent');
   }
+
 }
 
 useEffect(() => { 
