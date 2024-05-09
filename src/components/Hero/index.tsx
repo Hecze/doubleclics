@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "../button";
 import { Fascinate } from "next/font/google";
+import FadeInSection from "../FadeInSection";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap ">
-            <div className="pl-4 w-1/2 min-w-[350px] mx-auto">
+          <FadeInSection animationClass="animate-fade-in-up-20 pl-4 w-1/2 min-w-[350px] mx-auto"  threshold={0.25}>
               <div className="mx-auto max-w-[600px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 Reduce costs and improve reliability with IT operations automation.
@@ -27,15 +28,16 @@ const Hero = () => {
                   Discover the possibilities.
                   </Button>
                 </div>
-              </div>
             </div>
-            <div className="w-1/2 min-w-[350px] mx-auto">
+            </FadeInSection>
+            <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto"  threshold={0.25}>
               <img
                 src="/images/hero/automation.svg"
                 alt="Hero"
                 className="mx-auto mt-10 w-full max-w-[750px] sm:mt-0"
               />
-            </div>
+            </FadeInSection>
+
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
