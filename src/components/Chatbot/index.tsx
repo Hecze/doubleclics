@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { AiOutlineComment, AiOutlineSend } from 'react-icons/ai';
 import { MdOutlineSupportAgent, MdClose } from 'react-icons/md';
+import Button from '../button';
 
 const apiKey = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
 
@@ -68,62 +69,67 @@ const ChatBot: React.FC = () => {
     }
   };
 
+  const content = (<div className="bg-white shadow-lg rounded-lg w-80 mt-2 relative animate-growing">
+  <div className="text-lg font-semibold text-black p-4 bg-blue-300 rounded-t-lg flex justify-between items-center">
+    <div className="flex items-center gap-2">
+      <MdOutlineSupportAgent size={30} /> DoubleClics Assistant
+    </div>
+    <button onClick={toggleChat} className="text-blue-900 transition duration-150  hover:text-red-800">
+      <MdClose size={20} />
+    </button>
+  </div>
+
+  <div className="py-4 px-2">
+    <div className="flex flex-col h-80 overflow-auto gap-2 ">
+      {messages.map((message, index) => (
+        <div
+          key={index}
+          className={`p-2 rounded-md text-sm text-white ${
+            message.role === 'user' ? 'bg-primary self-end px-4 ml-4' : 'bg-amber-500 self-start px-4 mr-4'
+          }`}
+        >
+          {message.content}
+        </div>
+      ))}
+    </div>
+    <div className="flex mt-2">
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onKeyDown={handleKeyPress}
+        className="border rounded-l p-2 w-full"
+        placeholder="Escribe tu mensaje..."
+      />
+      <button
+        onClick={sendMessage}
+        className="bg-primary text-white rounded-r p-2"
+        disabled={isSending}
+      >
+        <AiOutlineSend />
+      </button>
+    </div>
+  </div>
+</div>
+  );
+
   return (
-    <div className="fixed bottom-6 right-6 z-20">
+    <div className="fixed bottom-6 right-6 z-20 flex-col justify-end justify-items-end justify-self-end">
       {/* Ocultar el botón de abrir chat si el chat está abierto */}
-      {!isOpen && (
-        <button
-          className="bg-blue-600 text-white rounded-full p-3 hover:bg-blue-700 transition duration-150 "
+      {isOpen && (content)}
+
+        <div className="w-full flex justify-end">
+        <Button
+          className={`rounded-full  mt-4 ${isOpen ? 'opacity-60' : ''}`}
           onClick={toggleChat}
         >
           <AiOutlineComment size={30} />
-        </button>
-      )}
-
-      {isOpen && (
-        <div className="bg-white shadow-lg rounded-lg w-80 mt-2 relative">
-          <div className="text-lg font-semibold text-black p-4 bg-blue-300 rounded-t-lg flex justify-between items-center">
-            <div className="flex items-center gap-2">
-              <MdOutlineSupportAgent size={30} /> DoubleClics Assistant
-            </div>
-            <button onClick={toggleChat} className="text-blue-900 transition duration-150  hover:text-red-800">
-              <MdClose size={20} />
-            </button>
-          </div>
-
-          <div className="py-4 px-2">
-            <div className="flex flex-col h-80 overflow-auto gap-2 ">
-              {messages.map((message, index) => (
-                <div
-                  key={index}
-                  className={`p-2 rounded-md text-sm text-white ${
-                    message.role === 'user' ? 'bg-primary self-end px-4 ml-4' : 'bg-amber-500 self-start px-4 mr-4'
-                  }`}
-                >
-                  {message.content}
-                </div>
-              ))}
-            </div>
-            <div className="flex mt-2">
-              <input
-                type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={handleKeyPress}
-                className="border rounded-l p-2 w-full"
-                placeholder="Escribe tu mensaje..."
-              />
-              <button
-                onClick={sendMessage}
-                className="bg-primary text-white rounded-r p-2"
-                disabled={isSending}
-              >
-                <AiOutlineSend />
-              </button>
-            </div>
-          </div>
+        </Button>
         </div>
-      )}
+
+
+
+
     </div>
   );
 };

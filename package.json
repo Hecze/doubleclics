@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/button": "^2.0.31",
+    "@nextui-org/popover": "^2.1.21",
+    "@nextui-org/system": "^2.1.2",
+    "@nextui-org/theme": "^2.2.3",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
+    "framer-motion": "^11.1.9",
     "next": "^14.1.0",
     "next-themes": "^0.2.1",
     "node-fetch": "^3.3.2",
@@ -18,7 +23,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.2",
-    "react-modal-video": "^2.0.1"
+    "react-modal-video": "^2.0.1",
+    "resend": "^3.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.9",

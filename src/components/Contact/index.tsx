@@ -13,7 +13,27 @@ const [subject, setSubject] = useState('');
 
 const handleSend = async (e: { preventDefault: () => void; }) => {
   e.preventDefault();
-  console.log('sending email')
+  if (!email || !name || !message) {
+    console.error("All fields are required");
+    return;
+  }
+  const res = await fetch('/api/send-email', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ email, name, message })
+
+  });
+
+  console.log("Sending body:", JSON.stringify({ email, name, message }));
+
+  if (res.ok) {
+    console.log('Message sent successfully');
+    console.log(res)
+  } else {
+    console.log('Message not sent');
+  }
 }
 
 useEffect(() => { 

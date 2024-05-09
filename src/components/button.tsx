@@ -1,38 +1,53 @@
+"use client"
 import React from 'react';
+import { Button as NextUIButton } from '@nextui-org/button';
 import Link from 'next/link';
 
-// Definición de los tipos para las props
 interface ButtonProps {
-  path?: string; // Ahora es opcional
-  children: React.ReactNode;
-  onClick?: () => void; // Para soportar acciones de click para botones sin path
+  path?: string; // Prop opcional para el enlace
+  children: React.ReactNode; // Contenido del botón
+  color?: string; // Color personalizado del botón
+  hover?: boolean; // Soporte para efectos hover
+  className?: string; // Clases personalizadas
+  onClick?: () => void; // Acción de clic para botones sin path
 }
 
-const Button: React.FC<ButtonProps> = ({ path, children, onClick }) => {
-const buttonStyles = 'rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-[#D94E73] hover:scale-105 hover:shadow-md';
+const Button: React.FC<ButtonProps> = ({ path, children, onClick, color, hover = true, className }) => {
+  const hoverStyles = hover ? 'hover:bg-[#D94E73] hover:scale-105 hover:shadow-md ' : 'hover:opacity-90';
+  const baseColor = color ? color : 'bg-primary';
+  const buttonStyles = `h-14 rounded-sm px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out ${hoverStyles} ${baseColor} ${className}`;
 
+  const handleClick = () => {
+    if (path && path.startsWith('#')) {
+      const targetId = path.substring(1); // Eliminar el símbolo "#" del inicio
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    if (onClick) {
+      onClick();
+    }
+  };
 
-  if (path) {
-    // Si hay un path, usa un Link
+  if (path && !path.startsWith('#')) {
     return (
-      <Link
-        href={path}
-        className={buttonStyles}
-      >
-        {children}
+      <Link href={path}>
+        <NextUIButton className={buttonStyles}>
+          {children}
+        </NextUIButton>
       </Link>
     );
   }
 
-  // Si no hay path, usa un botón
   return (
-    <button
-      type="submit" // Asumimos que el tipo es "submit"
-      onClick={onClick} // Para permitir eventos de clic
-      className={buttonStyles}
+    <NextUIButton
+      type="button" // Asegura que no es un botón de envío en formularios
+      onClick={handleClick} // Maneja el evento de clic
+      className={buttonStyles} // Aplica estilos personalizados
     >
       {children}
-    </button>
+    </NextUIButton>
   );
 };
 
