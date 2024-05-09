@@ -27,11 +27,11 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
-          <ScrollToTop />
         </Providers>
       </body>
     </html>
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers";import ChatBot from "@/components/Chatbot";
+

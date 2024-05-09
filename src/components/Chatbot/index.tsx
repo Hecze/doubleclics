@@ -97,7 +97,7 @@ const ChatBot: React.FC = () => {
                 <div
                   key={index}
                   className={`p-2 rounded-md text-sm text-white ${
-                    message.role === 'user' ? 'bg-blue-700 self-end px-4 ' : 'bg-gray-700 self-start px-4'
+                    message.role === 'user' ? 'bg-primary self-end px-4 ml-4' : 'bg-amber-500 self-start px-4 mr-4'
                   }`}
                 >
                   {message.content}
@@ -115,7 +115,7 @@ const ChatBot: React.FC = () => {
               />
               <button
                 onClick={sendMessage}
-                className="bg-blue-700 text-white rounded-r p-2"
+                className="bg-primary text-white rounded-r p-2"
                 disabled={isSending}
               >
                 <AiOutlineSend />
