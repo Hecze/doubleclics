@@ -1,21 +1,33 @@
+
 import { EmailTemplate } from '@/components/Contact/email-template';
 import { Resend } from 'resend';
 import * as React from 'react';
 
 const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
+const GET = async (request: any) => {
+  return new Response(JSON.stringify({ message: 'GET method is not allowed' }), {
+    status: 405,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
 
-export async function POST(  req: Request, res: Response ) {
+
+const POST = async (request: any) => {
+
+
 
   try {
 
-    //const body = await req.json(); 
+    const body = await request.json();
+    console.log(body)
+
 
     const { data, error } = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
+      from: 'DoubleClics.com <onboarding@resend.dev>',
       to: ['hectorzerrillo85@gmail.com'],
-      subject:  'New message from contact form',
-      react: EmailTemplate({ firstName: "John", message: "xds", email: "pepito@sds.com" }) as React.ReactElement,
+      subject: 'New message from contact form',
+      react: EmailTemplate({ firstName: body.name, message: body.message, email: body.email }) as React.ReactElement,
     });
 
 
@@ -30,6 +42,30 @@ export async function POST(  req: Request, res: Response ) {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     });
-    
+
   }
+  
 }
+
+const PUT = async (request: any) => {
+  return new Response(JSON.stringify({ message: 'PUT method is not allowed' }), {
+    status: 405,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
+const DELETE = async (request: any) => {
+  return new Response(JSON.stringify({ message: 'DELETE method is not allowed' }), {
+    status: 405,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
+const PATCH = async (request: any) => {
+  return new Response(JSON.stringify({ message: 'PATCH method is not allowed' }), {
+    status: 405,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
+export { GET, POST, PUT, DELETE, PATCH}

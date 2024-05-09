@@ -35,7 +35,7 @@ const handleSend = async (e: { preventDefault: () => void; }) => {
     setEmail('');
     setName('');
     setMessage('');
-    
+
     console.log(res)
   } else {
     console.log('Message not sent');
@@ -83,6 +83,7 @@ useEffect(() => {
                         placeholder="Enter your name"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         onChange={(e) => setName(e.target.value)}
+                        value={name}
                       />
                     </div>
                   </div>
@@ -99,6 +100,7 @@ useEffect(() => {
                         placeholder="Enter your email"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         onChange={(e) => setEmail(e.target.value)}
+                        value={email}
                       />
                     </div>
                   </div>
@@ -116,11 +118,12 @@ useEffect(() => {
                         placeholder="Enter your Message"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         onChange={(e) => setMessage(e.target.value)}
+                        value={message}
                       ></textarea>
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <Button>
+                    <Button type="submit">
                       Send
                     </Button>
                   </div>
