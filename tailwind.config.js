@@ -13,6 +13,7 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
+    
 
     screens: {
       xs: "450px",
@@ -34,13 +35,66 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      animation: {  
+        "fade-in-down-10": "fade-in-down-10 0.5s ease-in-out ",
+        "fade-in-down-20": "fade-in-down-10 0.5s ease-in-out ",
+        "fade-in-up-10": "fade-in-up-10 0.7s ease-in-out",
+        "fade-in-up-20": "fade-in-up-20 1s ease-out",
+        "fade-in-left": "fade-in-left 0.5s ease-out",
+        "fade-in-right": "fade-in-right 0.5s ease-out",
+      },
+
+      keyframes: {
+        "fade-in-up-10": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(7px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "fade-in-up-20": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(14px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "fade-in-down-10": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-7px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "fade-in-down-20": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-14px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+
       colors: {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#4A6CF7",
+        primary: "#3B3F8C",
+        purple: "#D94E73",
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
         "body-color": {
