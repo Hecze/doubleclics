@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineComment, AiOutlineSend } from 'react-icons/ai';
 import { MdOutlineSupportAgent, MdClose } from 'react-icons/md';
 import Button from '../button';
@@ -22,6 +22,17 @@ const ChatBot: React.FC = () => {
     role: 'system',
     content: 'Introducción: Eres un chatbot inteligente diseñado para ayudar a los visitantes de DoubleClics, una empresa que ofrece servicios de automatización...',
   };
+
+  const welcomeMessage = {
+    role: 'assistant',
+    content: '¡Hola! Soy el asistente de DoubleClics. ¿En qué puedo ayudarte hoy?',
+  };
+
+  //al cargar el componente que el chatbot diga un mensaje de bienvenida
+  useEffect(() => {
+    setMessages([ welcomeMessage]);
+    setIsOpen(true);
+  }, []);
 
   const toggleChat = () => setIsOpen(!isOpen);
 
