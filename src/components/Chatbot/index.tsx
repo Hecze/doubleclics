@@ -23,10 +23,14 @@ const ChatBot: React.FC = () => {
     content: 'Introducción: Eres un chatbot inteligente diseñado para ayudar a los visitantes de DoubleClics, una empresa que ofrece servicios de automatización...',
   };
 
-  const welcomeMessage = {
+  const welcomeMessage : Message = {
     role: 'assistant',
-    content: '¡Hola! Soy el asistente de DoubleClics. ¿En qué puedo ayudarte hoy?',
+    content: '¡Hola! Soy el asistente de DoubleClics. ¿En qué puedo ayudarte?'
   };
+
+  
+
+
 
   //al cargar el componente que el chatbot diga un mensaje de bienvenida
   useEffect(() => {
