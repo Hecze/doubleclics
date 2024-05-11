@@ -6,7 +6,6 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +20,22 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+            <head>
+
+<Script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-E7NY2W59JZ"
+/>
+
+<Script id="google-analytics">
+  {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', ${'${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'});
+  `}
+</Script>
+</head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
@@ -30,7 +44,6 @@ export default function RootLayout({
           <Footer />
         </Providers>
       </body>
-      <GoogleAnalytics gaId="G-XYZ" />
     </html>
   );
 }

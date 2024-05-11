@@ -28,14 +28,17 @@ const ChatBot: React.FC = () => {
     content: '¡Hola! Soy el asistente de DoubleClics. ¿En qué puedo ayudarte?'
   };
 
-  
-
-
 
   //al cargar el componente que el chatbot diga un mensaje de bienvenida
   useEffect(() => {
     setMessages([ welcomeMessage]);
-    setIsOpen(true);
+  }, []);
+
+  //AL CARGAR EL COMPONENTE, DESPUES DE 2 SEGUNDOS QUE SE PONGA EN TRUE EL ESTADO DE ISOPEN
+  useEffect(() => {
+    setTimeout(() => {
+      setIsOpen(true);
+    }, 500);
   }, []);
 
   const toggleChat = () => setIsOpen(!isOpen);
