@@ -32,7 +32,6 @@ const Contact = () => {
     <FadeInSection animationClass="animate-fade-in-down-10 py-16 md:py-20 lg:py-28" threshold={0.25}>
 
       <section id="contact" className="overflow-hidden ">
-
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -114,7 +113,6 @@ const Contact = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-              <NewsLatterBox />
             </div>
           </div>
         </div>

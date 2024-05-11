@@ -1,23 +1,65 @@
+"use client"
+import React from "react";
 import { Brand } from "@/types/brand";
 import Image from "next/image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import brandsData from "./brandsData";
 
 const Brands = () => {
+  const settings = {
+    infinite: true,
+    speed: 6000,
+    slidesToShow: 5, // Cambia este número según cuántos elementos quieres mostrar simultáneamente
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 10, // Controla la velocidad de avance automático
+    cssEase: "linear", // Establece una transición lineal sin aceleración
+    arrows: false, // Deshabilita las flechas
+    swipe: false, // Deshabilita el movimiento del carrusel por el mouse
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <section className="pt-16">
       <div className="container">
         <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl mb-8 ml-4">
           We work with
         </h3>
-        <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
+        <div className="px-12 ">
+          <div className="bg-slate-200 dark:bg-slate-800 py-4 shadow">
+
+            <Slider {...settings}>
+
+
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))}
-            </div>
+
+            </Slider>
           </div>
         </div>
+
       </div>
     </section>
   );
@@ -29,15 +71,13 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { href, image, imageLight, name } = brand;
 
   return (
-    <div className="flex w-1/2 items-center justify-center px-3 py-[15px] sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6">
+    <div className="px-3 py-[15px] min-h-[100px] flex justify-center align-center">
       <a
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
-      >
-        <Image src={imageLight} alt={name} fill className="hidden dark:block" />
-        <Image src={image} alt={name} fill className="block dark:hidden" />
+        className="relative w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100 flex justify-center align-center">
+        <Image src={imageLight} alt={name} width={100} height={100} className="hidden dark:block" />
       </a>
     </div>
   );
