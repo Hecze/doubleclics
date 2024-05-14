@@ -20,8 +20,8 @@ export default function LocalSwitcher() {
   const languages = [
     { key: 'es', value: 'es', label: 'Español' },
     { key: 'en', value: 'en', label: 'English' },
-    { key: 'pt', value: 'pt', label: 'Portugues' },
-    { key: 'zh', value: 'zh', label: 'Chino' },
+    { key: 'pt', value: 'pt', label: 'Português' },
+    { key: 'zh', value: 'zh', label: '中国人' },
   ];
 
   return (

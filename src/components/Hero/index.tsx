@@ -6,7 +6,7 @@ import { Fascinate } from "next/font/google";
 import FadeInSection from "../FadeInSection";
 import LocalSwitcher from '../local-switcher';
 
-const Hero = (language: any) => {
+const Hero = () => {
   const t = useTranslations('hero');
   return (
     <>

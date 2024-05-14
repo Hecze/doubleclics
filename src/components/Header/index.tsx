@@ -1,14 +1,44 @@
 "use client";
+import { Menu } from "@/types/menu";
+import {useTranslations} from 'next-intl';
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
-import menuData from "./menuData";
 import LocalSwitcher from "../local-switcher";
 
 
-const Header = () => {
+const Header = (locale: any) => {
+  const t = useTranslations('header');
+  const language = "/" + locale["locale"];
+  const menuData: Menu[] = [
+    {
+      id: 1,
+      title: t('home'),
+      path: "/",
+      newTab: false,
+    },
+    {
+      id: 2,
+      title: t('pricing'),
+      path:  language + "/pricing",
+      newTab: false,
+    },
+    {
+      id: 3,
+      title: t('about'),
+      path: language + "/about",
+      newTab: false,
+    },
+    {
+      id: 4,
+      title: t('contact'),
+      path: language + "/contact",
+      newTab: false,
+    },
+  
+  ];
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -26,6 +56,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleStickyNavbar);
+    console.log(locale["locale"]);
   });
 
   // submenu handler
@@ -111,7 +142,7 @@ const Header = () => {
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
-                            href={menuItem.path}
+                            href=  {menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
