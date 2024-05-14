@@ -1,5 +1,5 @@
 "use client";
-
+import {useTranslations} from 'next-intl';
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
@@ -8,13 +8,14 @@ import ModalVideo from "react-modal-video";
 
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
+  const t = useTranslations('video');
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="How is a process automated?"
-          paragraph="Our team of process automation experts explains it in this video."
+          title={t('title')}
+          paragraph={t('paragraph')}
           center
           mb="80px"
         />

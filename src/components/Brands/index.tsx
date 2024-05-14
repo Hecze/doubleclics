@@ -1,4 +1,6 @@
 "use client"
+import {useTranslations} from 'next-intl';
+
 import React from "react";
 import { Brand } from "@/types/brand";
 import Image from "next/image";
@@ -8,6 +10,8 @@ import "slick-carousel/slick/slick-theme.css";
 import brandsData from "./brandsData";
 
 const Brands = () => {
+  const t = useTranslations('brand');
+
   const settings = {
     infinite: true,
     speed: 6000,
@@ -44,7 +48,7 @@ const Brands = () => {
     <section className="pt-16">
       <div className="container">
         <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl mb-8 ml-4">
-          We work with
+          {t('title')}
         </h3>
         <div className="px-12 ">
           <div className="bg-slate-200 dark:bg-slate-800 py-4 shadow">

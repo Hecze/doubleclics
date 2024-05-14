@@ -1,4 +1,5 @@
 "use client";
+import {useTranslations} from 'next-intl';
 
 import React, { useState, useEffect } from 'react';
 import { AiOutlineComment, AiOutlineSend } from 'react-icons/ai';
@@ -17,15 +18,16 @@ const ChatBot: React.FC = () => {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<Message[]>([]);
   const [isSending, setIsSending] = useState(false);
+  const t = useTranslations('chatbot');
 
   const systemMessage = {
     role: 'system',
-    content: 'Introducción: Eres un chatbot inteligente diseñado para ayudar a los visitantes de DoubleClics, una empresa que ofrece servicios de automatización...',
+    content: t('systemMessage')
   };
 
   const welcomeMessage : Message = {
     role: 'assistant',
-    content: '¡Hola! Soy el asistente de DoubleClics. ¿En qué puedo ayudarte?'
+    content: t('welcomeMessage')
   };
 
 
@@ -90,7 +92,7 @@ const ChatBot: React.FC = () => {
   const content = (<div className="bg-white shadow-lg rounded-lg w-80 mt-2 relative animate-growing">
   <div className="text-lg font-semibold text-black p-4 bg-blue-300 rounded-t-lg flex justify-between items-center">
     <div className="flex items-center gap-2">
-      <MdOutlineSupportAgent size={30} /> DoubleClics Assistant
+      <MdOutlineSupportAgent size={30} /> {t('chatbotName')}
     </div>
     <button onClick={toggleChat} className="text-blue-900 transition duration-150  hover:text-red-800">
       <MdClose size={20} />
@@ -117,7 +119,7 @@ const ChatBot: React.FC = () => {
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={handleKeyPress}
         className="border rounded-l p-2 w-full"
-        placeholder="Escribe tu mensaje..."
+        placeholder={t('placeholder')}
       />
       <button
         onClick={sendMessage}
@@ -144,10 +146,6 @@ const ChatBot: React.FC = () => {
           <AiOutlineComment size={30} />
         </Button>
         </div>
-
-
-
-
     </div>
   );
 };

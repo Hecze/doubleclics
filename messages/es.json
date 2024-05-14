@@ -1,15 +1,8 @@
 {
-  "hero":{
-    "title": "Reducir costos y mejorar la fiabilidad con la automatización de operaciones de TI.",
-    "subtitle": "Los avances tecnológicos ocurren a un ritmo frenético y, en el mundo empresarial, adaptarse es clave para sobrevivir y prosperar. Con nuestras soluciones de automatización, le proporcionamos las herramientas necesarias para mantener su empresa competitiva y en constante crecimiento.",
-    "main-button": "Precios",
-    "secondary-button": "Descubra las posibilidades"
-  },
-  "about":{
-    "section1":
-    {
+  "about": {
+    "section1": {
       "title": "Expertos en Automatización y Desarrollo de Software.",
-      "paragraph": "Nuestro equipo está formado por expertos en automatización, desarrollo de software y estrategia empresarial, todos con un objetivo común: hacer que la tecnología sea una aliada para nuestros clientes.",
+      "paragraph": "Nuestro equipo está compuesto por expertos en automatización, desarrollo de software y estrategia empresarial, todos con un objetivo común: hacer que la tecnología sea una aliada para nuestros clientes.",
       "list": [
         "Calidad premium",
         "Soluciones personalizadas",
@@ -19,13 +12,13 @@
         "Garantía de satisfacción"
       ]
     },
-    "section2":[
+    "section2": [
       {
-        "title": "+30 años de experiencia.",
+        "title": "Más de 30 años de experiencia.",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        "title": "Soporte Premier",
+        "title": "Soporte premier",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
       },
       {
@@ -34,32 +27,38 @@
       }
     ]
   },
+  "brand": {
+    "title": "Trabajamos con"
+  },
   "chatbot": {
     "systemMessage": "Introducción: Eres un chatbot inteligente que habla inglés diseñado para ayudar a los visitantes de DoubleClics, una empresa que ofrece servicios de automatización...",
     "welcomeMessage": "¡Hola! Soy el Asistente de DoubleClics. ¿En qué puedo ayudarte?",
-    "chatbotName": "Asistente DoubleClics",
+    "chatbotName": "Asistente de DoubleClics",
     "placeholder": "Escribe tu mensaje aquí..."
   },
-  "common":{
+  "common": {
     "breadcrumb": "Inicio"
   },
-  "contact":{
+  "contact": {
     "name": "Nombre",
     "email": "Correo electrónico",
-    "contactSectionTitle": "Hablemos",
-    "contactSectionParagraph": "Nuestro equipo responderá instantáneamente para responder cualquiera de tus preguntas.",
-    "nameLabel": "Tu nombre",
-    "emailLabel": "Tu correo electrónico",
-    "messageLabel": "Tu mensaje",
-    "sendButton": "Enviar"
+    "title": "Hablemos",
+    "paragraph": "Nuestro equipo responderá instantáneamente para atender cualquiera de tus preguntas.",
+    "nameLabel": "Tu Nombre",
+    "emailLabel": "Tu Correo Electrónico",
+    "messageLabel": "Tu Mensaje",
+    "sendButton": "Enviar",
+    "namePlaceholder": "Escribe tu nombre",
+    "emailPlaceholder": "Escribe tu correo electrónico",
+    "messagePlaceholder": "Escribe tu mensaje"
   },
-  "features":{
+  "features": {
     "title": "¿Qué tipos de procesos pueden automatizarse?",
     "paragraph": "Aquí hay algunas áreas donde nuestros servicios de automatización pueden marcar la diferencia.",
-    "featuresData":[
+    "featuresData": [
       {
         "title": "Redes Sociales",
-        "paragraph": "Aumenta tu presencia en redes sociales con bots que interactúan, generan likes, comparten contenido y más. Automatiza tus campañas y mantente en la mente de tus clientes sin esfuerzo adicional."
+        "paragraph": "Aumenta tu presencia en redes sociales con bots que interactúan, generan likes, comparten contenido y más. Automatiza tus campañas y mantente presente en la mente de tus clientes sin esfuerzo adicional."
       },
       {
         "title": "Pruebas de Vulnerabilidad",
@@ -79,12 +78,12 @@
       },
       {
         "title": "Bots Personalizados",
-        "paragraph": "Automatiza cualquier tarea repetitiva. Trabajaremos contigo para crear un bot personalizado que se ajuste a tus necesidades."
+        "paragraph": "Automatiza cualquier tarea repetitiva. Trabajaremos contigo para crear un bot personalizado que se adapte a tus necesidades."
       }
     ]
-  } ,
+  },
   "footer": {
-    "title": "Uso del cliente",
+    "title": "Cliente útil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
     "usefulLinks": [
       "Blog",
@@ -92,13 +91,13 @@
       "Acerca de"
     ],
     "termsLinks": [
-      "Términos de servicio",
-      "Política de privacidad",
-      "Política de reembolso"
+      "Términos de Servicio",
+      "Política de Privacidad",
+      "Política de Reembolso"
     ],
     "supportLinks": [
       "Contáctanos",
-      "Términos de uso",
+      "Términos de Uso",
       "Acerca de"
     ]
   },
@@ -107,6 +106,12 @@
     "about": "Acerca de",
     "contact": "Contacto",
     "pricing": "Precios"
+  },
+  "hero": {
+    "title": "Reduce costos y mejora la confiabilidad con la automatización de operaciones de TI.",
+    "subtitle": "La tecnología avanza a un ritmo vertiginoso y, en el mundo empresarial, adaptarse es clave para sobrevivir y prosperar. Con nuestras soluciones de automatización, te proporcionamos las herramientas necesarias para mantener tu empresa competitiva y en constante crecimiento.",
+    "main-button": "Precios",
+    "secondary-button": "Descubre las posibilidades"
   },
   "pricing": {
     "title": "Precios",
@@ -147,36 +152,35 @@
       }
     ]
   },
-
-  "testimonial": [
-    {
-      "id": 1,
-      "name": "Musharof Chy",
-      "designation": "Fundador @TailGrids",
-      "content":
-        "Nuestros miembros están muy impresionados. Es intuitivo. Es limpio. Es libre de distracciones. Si estás construyendo una comunidad.",
-      "star": 5
-    },
-    {
-      "id": 2,
-      "name": "Devid Weilium",
-      "designation": "Fundador @UIdeck",
-      "content":
-        "Nuestros miembros están muy impresionados. Es intuitivo. Es limpio. Es libre de distracciones. Si estás construyendo una comunidad.",
-      "star": 5
-    },
-    {
-      "id": 3,
-      "name": "Lethium Frenci",
-      "designation": "Fundador @Lineicons",
-      "content":
-        "Nuestros miembros están muy impresionados. Es intuitivo. Es limpio. Es libre de distracciones. Si estás construyendo una comunidad.",
-      "star": 5
-    }
-  ],
-
-  "video":{
+  "testimonial": {
+    "title": "Lo que dicen nuestros clientes",
+    "paragraph": "Nuestros clientes son nuestros mayores defensores. Desde 2007, hemos ayudado a más de 10,000 clientes a automatizar sus procesos. Nuestros clientes son nuestros mayores defensores. Desde 2007, hemos ayudado a más de 10,000 clientes a automatizar sus procesos.",
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "Musharof Chy",
+        "designation": "Fundador @TailGrids",
+        "content": "Nuestros miembros están muy impresionados. Es intuitivo. Es limpio. Es libre de distracciones. Si estás construyendo una comunidad.",
+        "star": 5
+      },
+      {
+        "id": 2,
+        "name": "Devid Weilium",
+        "designation": "Fundador @UIdeck",
+        "content": "Nuestros miembros están muy impresionados. Es intuitivo. Es limpio. Es libre de distracciones. Si estás construyendo una comunidad.",
+        "star": 5
+      },
+      {
+        "id": 3,
+        "name": "Lethium Frenci",
+        "designation": "Fundador @Lineicons",
+        "content": "Nuestros miembros están muy impresionados. Es intuitivo. Es limpio. Es libre de distracciones. Si estás construyendo una comunidad.",
+        "star": 5
+      }
+    ]
+  },
+  "video": {
     "title": "¿Cómo se automatiza un proceso?",
-    "paragraph": "Nuestro equipo está formado por expertos en automatización, desarrollo de software y estrategia empresarial, todos con un objetivo común: hacer que la tecnología sea una aliada para nuestros clientes."
+    "paragraph": "Nuestro equipo está compuesto por expertos en automatización, desarrollo de software y estrategia empresarial, todos con un objetivo común: hacer que la tecnología sea una aliada para nuestros clientes."
   }
 }

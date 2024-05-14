@@ -1,44 +1,47 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import {useTranslations} from 'next-intl';
 
-const testimonialData: Testimonial[] = [
-  {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.svg",
-    star: 5,
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.svg",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.svg",
-    star: 5,
-  },
-];
+
+
 
 const Testimonials = () => {
+  const t = useTranslations('testimonial');
+
+  const testimonialData: Testimonial[] = [
+    {
+      id: 1,
+      name: t('testimonials.0.name'),
+      designation: t('testimonials.0.designation'),
+      content:t('testimonials.0.content'),
+      image: "/images/testimonials/auth-01.svg",
+      star: 5,
+    },
+    {
+      id: 2,
+      name: t('testimonials.1.name'),
+      designation: t('testimonials.1.designation'),
+      content: t('testimonials.1.content'),
+      image: "/images/testimonials/auth-02.svg",
+      star: 5,
+    },
+    {
+      id: 3,
+      name: t('testimonials.2.name'),
+      designation: t('testimonials.2.designation'),
+      content: t('testimonials.2.content'),
+      image: "/images/testimonials/auth-03.svg",
+      star: 5,
+    },
+  ];
+
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title={t('title')}
+          paragraph={t('paragraph')}
           center
         />
 

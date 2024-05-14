@@ -1,3 +1,4 @@
+
 import {useTranslations} from 'next-intl';
 import Link from "next/link";
 import Button from "../button";
@@ -21,14 +22,14 @@ const Hero = (language: any) => {
                 {t('title')}
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                Technology advances at a breakneck pace, and in the business world, adapting is key to surviving and thriving. With our automation solutions, we provide you with the tools needed to keep your company competitive and constantly growing.
+                {t('subtitle')}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Button path="/pricing">
-                  🔥 Pricing
+                  🔥 {t('main-button')}
                   </Button>
                   <Button path="#features" hover={false} color="bg-slate-900">
-                  Discover the possibilities.
+                  {t('secondary-button')}
                   </Button>
                 </div>
             </div>
