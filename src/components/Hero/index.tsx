@@ -1,9 +1,12 @@
+import {useTranslations} from 'next-intl';
 import Link from "next/link";
 import Button from "../button";
 import { Fascinate } from "next/font/google";
 import FadeInSection from "../FadeInSection";
+import LocalSwitcher from '../local-switcher';
 
-const Hero = () => {
+const Hero = (language: any) => {
+  const t = useTranslations('hero');
   return (
     <>
       <section
@@ -15,7 +18,7 @@ const Hero = () => {
           <FadeInSection animationClass="animate-fade-in-up-20 pl-4 w-1/2 min-w-[350px] mx-auto"  threshold={0.25}>
               <div className="mx-auto max-w-[600px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Reduce costs and improve reliability with IT operations automation.
+                {t('title')}
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Technology advances at a breakneck pace, and in the business world, adapting is key to surviving and thriving. With our automation solutions, we provide you with the tools needed to keep your company competitive and constantly growing.

@@ -1,0 +1,183 @@
+{
+  "hero":{
+    "title": "INGLES: Reduce costs and improve reliability with IT operations automation.",
+    "subtitle": "Technology advances at a breakneck pace, and in the business world, adapting is key to surviving and thriving. With our automation solutions, we provide you with the tools needed to keep your company competitive and constantly growing.",
+    "main-button": "Pricing",
+    "secondary-button": "Discover the possibilities"
+  },
+  "about":{
+    "section1":
+    {
+      "title": "Experts in Automation and Software Development.",
+      "paragraph": "Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients.",
+      "list": [
+        "Premium quality",
+        "Custom solutions",
+        "24/7 support",
+        "Cutting-edge technology",
+        "Competitive pricing",
+        "Satisfaction guarantee"
+      ]
+    },
+    "section2":[
+      {
+        "title": "+30 years of experience.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "title": "Premier support",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+      },
+      {
+        "title": "Bug free code ",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  "chatbot": {
+    "systemMessage": "Introduction: You are an intelligent chatbot that speaks English designed to help visitors of DoubleClics, a company that offers automation services...",
+    "welcomeMessage": "Hello! I'm the DoubleClics Assistant. How can I help you?",
+    "chatbotName": "DoubleClics Assistant",
+    "placeholder": "Type your message here..."
+  },
+  "common":{
+    "breadcrumb": "Home"
+  },
+  "contact":{
+    "name": "Name",
+    "email": "Email",
+    "contactSectionTitle": "Lets talk",
+    "contactSectionParagraph": "Our team will respond instantly to address any of your questions.",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Your Message",
+    "sendButton": "Send"
+  },
+  "features":{
+    "title": "What types of processes can be automated?",
+    "paragraph": "Here are some of the areas where our automation services can make a difference.",
+    "featuresData":[
+      {
+        "title": "Social Media",
+        "paragraph": "Increase your social media presence with bots that interact, generate likes, share content, and more. Automate your campaigns and stay top of mind with your customers without any additional effort."
+      },
+      {
+        "title": "Vulnerability Testing",
+        "paragraph": "Ensure your systems are secure and reliable with bots that can detect vulnerabilities and test the security of your applications."
+      },
+      {
+        "title": "Call Centers",
+        "paragraph": "Optimize your call center with bots that can respond to basic queries, route calls, and collect information, reducing the workload on your human team and improving efficiency."
+      },
+      {
+        "title": "Sales and Marketing",
+        "paragraph": "Streamline your sales force with bots that can manage contacts, send emails, and perform automated follow-ups."
+      },
+      {
+        "title": "Data Analysis and Reporting",
+        "paragraph": "Get precise and quick reports. With our bots, you can obtain key insights for decision-making without hours of manual labor."
+      },
+      {
+        "title": "Custom Bots",
+        "paragraph": "Automate any repetitive task. We will work with you to create a custom bot that fits your needs."
+      }
+    ]
+  } ,
+  "footer": {
+    "title": "Use client",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "usefulLinks": [
+      "Blog",
+      "Pricing",
+      "About"
+    ],
+    "termsLinks": [
+      "TOS",
+      "Privacy Policy",
+      "Refund Policy"
+    ],
+    "supportLinks": [
+      "Contact us",
+      "Terms of Use",
+      "About"
+    ]
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Choose the plan that best suits your needs.",
+    "plans": [
+      {
+        "title": "Basic",
+        "price": "$9.99",
+        "description": "For small businesses that need to automate basic processes.",
+        "features": [
+          "5 bots",
+          "Basic support",
+          "Limited customization"
+        ],
+        "button": "Choose Basic"
+      },
+      {
+        "title": "Pro",
+        "price": "$19.99",
+        "description": "For medium-sized businesses that need to automate more complex processes.",
+        "features": [
+          "10 bots",
+          "Priority support",
+          "Customization"
+        ],
+        "button": "Choose Pro"
+      },
+      {
+        "title": "Enterprise",
+        "price": "$29.99",
+        "description": "For large companies that need to automate multiple processes.",
+        "features": [
+          "Unlimited bots",
+          "24/7 support",
+          "Full customization"
+        ],
+        "button": "Choose Enterprise"
+      }
+    ]
+  },
+
+  "testimonial": [
+    {
+      "id": 1,
+      "name": "Musharof Chy",
+      "designation": "Founder @TailGrids",
+      "content":
+        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "star": 5
+    },
+    {
+      "id": 2,
+      "name": "Devid Weilium",
+      "designation": "Founder @UIdeck",
+      "content":
+        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "star": 5
+    },
+    {
+      "id": 3,
+      "name": "Lethium Frenci",
+      "designation": "Founder @Lineicons",
+      "content":
+        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "star": 5
+    }
+  ],
+
+  "video":{
+    "title": "How is a process automated?",
+    "paragraph": "Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients."
+  }
+  
+}

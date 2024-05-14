@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import LocalSwitcher from "../local-switcher";
+
 
 const Header = () => {
   // Navbar toggle
@@ -160,7 +162,8 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
 
-                <div>
+                <div className="flex flex-center justify-center align-center gap-2">
+                  <LocalSwitcher />
                   <ThemeToggler />
                 </div>
               </div>

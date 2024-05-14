@@ -1,0 +1,182 @@
+{
+  "hero":{
+    "title": "Reduza custos e melhore a confiabilidade com a automação das operações de TI.",
+    "subtitle": "Os avanços tecnológicos ocorrem a um ritmo acelerado e, no mundo dos negócios, adaptar-se é fundamental para sobreviver e prosperar. Com nossas soluções de automação, fornecemos as ferramentas necessárias para manter sua empresa competitiva e em constante crescimento.",
+    "main-button": "Preços",
+    "secondary-button": "Descubra as possibilidades"
+  },
+  "about":{
+    "section1":
+    {
+      "title": "Especialistas em Automação e Desenvolvimento de Software.",
+      "paragraph": "Nossa equipe é composta por especialistas em automação, desenvolvimento de software e estratégia de negócios, todos com um objetivo comum: tornar a tecnologia uma aliada para nossos clientes.",
+      "list": [
+        "Qualidade premium",
+        "Soluções personalizadas",
+        "Suporte 24/7",
+        "Tecnologia de ponta",
+        "Preços competitivos",
+        "Garantia de satisfação"
+      ]
+    },
+    "section2":[
+      {
+        "title": "+30 anos de experiência.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "title": "Suporte Premium",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+      },
+      {
+        "title": "Código livre de erros",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  "chatbot": {
+    "systemMessage": "Introdução: Você é um chatbot inteligente que fala inglês projetado para ajudar os visitantes da DoubleClics, uma empresa que oferece serviços de automação...",
+    "welcomeMessage": "Olá! Eu sou o Assistente DoubleClics. Como posso ajudar você?",
+    "chatbotName": "Assistente DoubleClics",
+    "placeholder": "Digite sua mensagem aqui..."
+  },
+  "common":{
+    "breadcrumb": "Início"
+  },
+  "contact":{
+    "name": "Nome",
+    "email": "E-mail",
+    "contactSectionTitle": "Vamos conversar",
+    "contactSectionParagraph": "Nossa equipe responderá instantaneamente para resolver qualquer uma de suas perguntas.",
+    "nameLabel": "Seu nome",
+    "emailLabel": "Seu e-mail",
+    "messageLabel": "Sua mensagem",
+    "sendButton": "Enviar"
+  },
+  "features":{
+    "title": "Que tipos de processos podem ser automatizados?",
+    "paragraph": "Aqui estão algumas áreas onde nossos serviços de automação podem fazer a diferença.",
+    "featuresData":[
+      {
+        "title": "Redes Sociais",
+        "paragraph": "Aumente sua presença nas redes sociais com bots que interagem, geram curtidas, compartilham conteúdo e muito mais. Automatize suas campanhas e mantenha-se na mente de seus clientes sem esforço adicional."
+      },
+      {
+        "title": "Testes de Vulnerabilidade",
+        "paragraph": "Garanta que seus sistemas sejam seguros e confiáveis com bots que podem detectar vulnerabilidades e testar a segurança de suas aplicações."
+      },
+      {
+        "title": "Centrais de Atendimento",
+        "paragraph": "Otimize seu centro de atendimento com bots que podem responder a consultas básicas, encaminhar chamadas e coletar informações, reduzindo a carga de trabalho de sua equipe humana e melhorando a eficiência."
+      },
+      {
+        "title": "Vendas e Marketing",
+        "paragraph": "Otimize sua força de vendas com bots que podem gerenciar contatos, enviar e-mails e realizar acompanhamentos automatizados."
+      },
+      {
+        "title": "Análise de Dados e Relatórios",
+        "paragraph": "Obtenha relatórios precisos e rápidos. Com nossos bots, você pode obter insights-chave para a tomada de decisões sem horas de trabalho manual."
+      },
+      {
+        "title": "Bots Personalizados",
+        "paragraph": "Automatize qualquer tarefa repetitiva. Trabalharemos com você para criar um bot personalizado que atenda às suas necessidades."
+      }
+    ]
+  } ,
+  "footer": {
+    "title": "Uso do Cliente",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "usefulLinks": [
+      "Blog",
+      "Preços",
+      "Sobre"
+    ],
+    "termsLinks": [
+      "Termos de Serviço",
+      "Política de Privacidade",
+      "Política de Reembolso"
+    ],
+    "supportLinks": [
+      "Contate-nos",
+      "Termos de Uso",
+      "Sobre"
+    ]
+  },
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato",
+    "pricing": "Preços"
+  },
+  "pricing": {
+    "title": "Preços",
+    "subtitle": "Escolha o plano que melhor se adapta às suas necessidades.",
+    "plans": [
+      {
+        "title": "Básico",
+        "price": "$9.99",
+        "description": "Para pequenas empresas que precisam automatizar processos básicos.",
+        "features": [
+          "5 bots",
+          "Suporte básico",
+          "Personalização limitada"
+        ],
+        "button": "Escolher Básico"
+      },
+      {
+        "title": "Pro",
+        "price": "$19.99",
+        "description": "Para empresas de médio porte que precisam automatizar processos mais complexos.",
+        "features": [
+          "10 bots",
+          "Suporte prioritário",
+          "Personalização"
+        ],
+        "button": "Escolher Pro"
+      },
+      {
+        "title": "Empresarial",
+        "price": "$29.99",
+        "description": "Para grandes empresas que precisam automatizar vários processos.",
+        "features": [
+          "Bots ilimitados",
+          "Suporte 24/7",
+          "Personalização completa"
+        ],
+        "button": "Escolher Empresarial"
+      }
+    ]
+  },
+
+  "testimonial": [
+    {
+      "id": 1,
+      "name": "Musharof Chy",
+      "designation": "Fundador @TailGrids",
+      "content":
+        "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
+      "star": 5
+    },
+    {
+      "id": 2,
+      "name": "Devid Weilium",
+      "designation": "Fundador @UIdeck",
+      "content":
+        "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
+      "star": 5
+    },
+    {
+      "id": 3,
+      "name": "Lethium Frenci",
+      "designation": "Fundador @Lineicons",
+      "content":
+        "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
+      "star": 5
+    }
+  ],
+
+  "video":{
+    "title": "Como é automatizado um processo?",
+    "paragraph": "Nossa equipe é composta por especialistas em automação, desenvolvimento de software e estratégia de negócios, todos com um objetivo comum: tornar a tecnologia uma aliada para nossos clientes."
+  }
+}

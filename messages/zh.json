@@ -1,0 +1,176 @@
+{
+  "hero": {
+    "title": "通过IT运维自动化降低成本并提高可靠性。",
+    "subtitle": "技术进步迅猛，在商业世界中，适应是生存和壮大的关键。通过我们的自动化解决方案，我们为您提供了保持公司竞争力并不断增长所需的工具。",
+    "main-button": "定价",
+    "secondary-button": "发现更多可能性"
+  },
+  "about": {
+    "section1": {
+      "title": "自动化和软件开发专家。",
+      "paragraph": "我们的团队由自动化、软件开发和业务战略方面的专家组成，共同目标是让技术成为我们客户的盟友。",
+      "list": [
+        "优质服务",
+        "定制解决方案",
+        "全天候支持",
+        "尖端技术",
+        "具有竞争力的定价",
+        "满意保证"
+      ]
+    },
+    "section2": [
+      {
+        "title": "30多年经验。",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "title": "首席支持",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
+      },
+      {
+        "title": "无bug代码",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  "chatbot": {
+    "systemMessage": "简介：您是一位智能英语聊天机器人，旨在帮助DoubleClics的访客，该公司提供自动化服务...",
+    "welcomeMessage": "你好！我是DoubleClics助手。我能帮你什么？",
+    "chatbotName": "DoubleClics助手",
+    "placeholder": "在这里输入你的消息..."
+  },
+  "common": {
+    "breadcrumb": "主页"
+  },
+  "contact": {
+    "name": "姓名",
+    "email": "电子邮件",
+    "contactSectionTitle": "让我们谈谈",
+    "contactSectionParagraph": "我们的团队将立即回复，解答您的任何问题。",
+    "nameLabel": "您的姓名",
+    "emailLabel": "您的电子邮件",
+    "messageLabel": "您的消息",
+    "sendButton": "发送"
+  },
+  "features": {
+    "title": "哪些流程可以自动化？",
+    "paragraph": "以下是我们的自动化服务可以产生影响的一些领域。",
+    "featuresData": [
+      {
+        "title": "社交媒体",
+        "paragraph": "通过与用户互动、生成赞、分享内容等机器人，增加您在社交媒体上的存在。无需额外的工作，自动化您的活动，保持与客户的联系。"
+      },
+      {
+        "title": "漏洞测试",
+        "paragraph": "通过可以检测漏洞并测试应用程序安全性的机器人，确保您的系统安全可靠。"
+      },
+      {
+        "title": "呼叫中心",
+        "paragraph": "通过可以回答基本查询、路由呼叫和收集信息的机器人，优化您的呼叫中心，减轻人力团队的工作量，提高效率。"
+      },
+      {
+        "title": "销售和营销",
+        "paragraph": "通过可以管理联系人、发送电子邮件和执行自动跟进的机器人，简化您的销售团队工作。"
+      },
+      {
+        "title": "数据分析与报告",
+        "paragraph": "获得精确和快速的报告。通过我们的机器人，您可以在不需要大量手工劳动的情况下获得决策关键见解。"
+      },
+      {
+        "title": "定制机器人",
+        "paragraph": "自动化任何重复的任务。我们将与您合作创建符合您需求的定制机器人。"
+      }
+    ]
+  },
+  "footer": {
+    "title": "客户使用",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "usefulLinks": [
+      "博客",
+      "定价",
+      "关于"
+    ],
+    "termsLinks": [
+      "服务条款",
+      "隐私政策",
+      "退款政策"
+    ],
+    "supportLinks": [
+      "联系我们",
+      "使用条款",
+      "关于"
+    ]
+  },
+  "header": {
+    "home": "主页",
+    "about": "关于",
+    "contact": "联系方式",
+    "pricing": "定价"
+  },
+  "pricing": {
+    "title": "定价",
+    "subtitle": "选择最适合您需求的计划。",
+    "plans": [
+      {
+        "title": "基础",
+        "price": "$9.99",
+        "description": "适用于需要自动化基本流程的小型企业。",
+        "features": [
+          "5个机器人",
+          "基本支持",
+          "有限定制"
+        ],
+        "button": "选择基础"
+      },
+      {
+        "title": "专业版",
+        "price": "$19.99",
+        "description": "适用于需要自动化更复杂流程的中型企业。",
+        "features": [
+          "10个机器人",
+          "优先支持",
+          "定制"
+        ],
+        "button": "选择专业版"
+      },
+      {
+        "title": "企业版",
+        "price": "$29.99",
+        "description": "适用于需要自动化多个流程的大型公司。",
+        "features": [
+          "无限机器人",
+          "全天候支持",
+          "完全定制"
+        ],
+        "button": "选择企业版"
+      }
+    ]
+  },
+  "testimonial": [
+    {
+      "id": 1,
+      "name": "Musharof Chy",
+      "designation": "创始人@TailGrids",
+      "content": "我们的成员印象深刻。 它很直观。 它很干净。 它没有干扰。 如果你正在建立一个社区。",
+      "star": 5
+    },
+    {
+      "id": 2,
+      "name": "Devid Weilium",
+      "designation": "创始人@UIdeck",
+      "content": "我们的成员印象深刻。 它很直观。 它很干净。 它没有干扰。 如果你正在建立一个社区。",
+      "star": 5
+    },
+    {
+      "id": 3,
+      "name": "Lethium Frenci",
+      "designation": "创始人@Lineicons",
+      "content": "我们的成员印象深刻。 它很直观。 它很干净。 它没有干扰。 如果你正在建立一个社区。",
+      "star": 5
+    }
+  ],
+  "video": {
+    "title": "如何自动化一个流程？",
+    "paragraph": "我们的团队由自动化、软件开发和业务战略方面的专家组成，共同目标是让技术成为我们客户的盟友。"
+  }
+}
