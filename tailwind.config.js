@@ -7,7 +7,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/components/(button|popover|ripple|spinner).js"
+    "./node_modules/@nextui-org/theme/dist/components/(button|popover|ripple|spinner|select).js"
   ],
   darkMode: "class",
   theme: {

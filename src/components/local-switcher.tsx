@@ -16,25 +16,29 @@ export default function LocalSwitcher() {
       router.replace(`/${nextLocale}`);
     });
   };
+
+  const languages = [
+    { key: 'es', value: 'es', label: 'Español' },
+    { key: 'en', value: 'en', label: 'English' },
+    { key: 'pt', value: 'pt', label: 'Portugues' },
+    { key: 'zh', value: 'zh', label: 'Chino' },
+  ];
+
   return (
       <Select
       placeholder='Select Language'
+      items={languages}
+      color='primary'
+      variant='bordered'
         defaultSelectedKeys={[localActive]}
         className="max-w-xs w-36"
         onChange={onSelectChange}
       >
-        <SelectItem key="es" value="es" className='px-6 py-2'>
-          Español
-        </SelectItem>
-        <SelectItem key="en" value="en" className='px-6 py-2'>
-          English
-        </SelectItem>
-        <SelectItem key="pt" value="pt" className='px-6 py-2'>
-          Portugues
-        </SelectItem>
-        <SelectItem key="zh" value="pt" className='px-6 py-2'>
-          Chino
-        </SelectItem>
+        {languages.map((lang) => (
+          <SelectItem key={lang.key} value={lang.value} className='py-2 px-6'>
+            {lang.label}
+          </SelectItem>
+        ))}
       </Select>
 
   );
