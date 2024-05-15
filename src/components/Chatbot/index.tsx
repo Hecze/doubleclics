@@ -36,11 +36,15 @@ const ChatBot: React.FC = () => {
     setMessages([ welcomeMessage]);
   }, []);
 
-  //AL CARGAR EL COMPONENTE, DESPUES DE 2 SEGUNDOS QUE SE PONGA EN TRUE EL ESTADO DE ISOPEN
+  //AL CARGAR EL COMPONENTE, DESPUES DE 2 SEGUNDOS QUE SE PONGA EN TRUE EL ESTADO DE ISOPEN solo en windows
   useEffect(() => {
-    setTimeout(() => {
-      setIsOpen(true);
-    }, 500);
+    // Verificar si es un dispositivo móvil antes de inicializar el chatbot
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (!isMobile) {
+      setTimeout(() => {
+        setIsOpen(true);
+      }, 500);
+    }
   }, []);
 
   const toggleChat = () => setIsOpen(!isOpen);
