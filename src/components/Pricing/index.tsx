@@ -3,16 +3,19 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
+import { useTranslations } from "next-intl";
+
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
+  const t = useTranslations("pricing");
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title={t("title")}
+          paragraph={t("subtitle")}
           center
           width="665px"
         />
@@ -27,7 +30,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              {t("time.monthly")}
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +55,41 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              {t("time.yearly")}
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
+            packageName={t("plans.0.title")}
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="Up to 2 custom bots" status="active" />
-            <OfferList text="Email support" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Monthly software updates" status="inactive" />
-            <OfferList text="Integration with basic platforms (e.g., Google Sheets, Excel)" status="inactive" />
-            <OfferList text="Automated reports and basic analytics" status="inactive" />
+            <OfferList text={t("plans.0.features.0")} status="active" />
+            <OfferList text={t("plans.0.features.1")} status="active" />
+            <OfferList text={t("plans.0.features.2")} status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
+            packageName={t("plans.1.title")}
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="Up to 5 custom bots" status="active" />
-            <OfferList text="Priority email and live chat support" status="active" />
-            <OfferList text="Access to premium documentation" status="active" />
-            <OfferList text="Monthly software updates" status="active" />
-            <OfferList text="Integration with basic platforms (e.g., Google Sheets, Excel)" status="active" />
-            <OfferList text="Automated reports and basic analytics" status="inactive" />
+            <OfferList text={t("plans.1.features.0")} status="active" />
+            <OfferList text={t("plans.1.features.1")} status="active" />
+            <OfferList text={t("plans.1.features.2")} status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
+            packageName={t("plans.2.title")}
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="Unlimited custom bots" status="active" />
-            <OfferList text="24/7 priority support (email, chat, and calls)" status="active" />
-            <OfferList text="Access to premium documentation and tutorials" status="active" />
-            <OfferList text="Monthly software updates" status="active" />
-            <OfferList text="Integration with advanced platforms (e.g., Salesforce, HubSpot)" status="active" />
-            <OfferList text="Advanced reports and detailed analytics" status="active" />
+            <OfferList text={t("plans.2.features.0")} status="active" />
+            <OfferList text={t("plans.2.features.1")} status="active" />
+            <OfferList text={t("plans.2.features.2")} status="active" />
           </PricingBox>
         </div>
       </div>

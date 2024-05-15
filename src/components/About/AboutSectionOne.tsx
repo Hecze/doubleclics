@@ -1,5 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import {useTranslations} from 'next-intl';
+
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -8,6 +10,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  const t = useTranslations("about");
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,8 +27,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Experts in Automation and Software Development."
-                paragraph="Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients."
+                title={t("section1.title")}
+                paragraph={t("section1.paragraph")}
                 mb="44px"
               />
 
@@ -35,15 +38,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Rich documentation" />
-                    <List text="Scalable" />
+                    <List text={t("section1.list.0")} />
+                    <List text={t("section1.list.1")} />
+                    <List text={t("section1.list.2")} />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="High Reliability" />
-                    <List text="User-Friendly Interface" />
-                    <List text="Robust Performance" />
+                    <List text={t("section1.list.3")} />
+                    <List text={t("section1.list.4")} />
+                    <List text={t("section1.list.5")} />
                   </div>
                 </div>
               </div>

@@ -7,14 +7,18 @@ import { Select, SelectItem } from "@nextui-org/select";
 
 export default function LocalSwitcher() {
   const [isPending, startTransition] = useTransition();
+  
   const router = useRouter();
   const localActive = useLocale();
 
   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = e.target.value;
+    //guardar el idioma seleccionado en el local storage
+    localStorage.setItem('locale', nextLocale);
     startTransition(() => {
       router.replace(`/${nextLocale}`);
     });
+
   };
 
   const languages = [

@@ -1,7 +1,6 @@
 {
-  "about":{
-    "section1":
-    {
+  "about": {
+    "section1": {
       "title": "Experts in Automation and Software Development.",
       "paragraph": "Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients.",
       "list": [
@@ -13,7 +12,7 @@
         "Satisfaction guarantee"
       ]
     },
-    "section2":[
+    "section2": [
       {
         "title": "+30 years of experience.",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -28,7 +27,7 @@
       }
     ]
   },
-  "brand":{
+  "brand": {
     "title": "We wor with"
   },
   "chatbot": {
@@ -37,10 +36,15 @@
     "chatbotName": "DoubleClics Assistant",
     "placeholder": "Type your message here..."
   },
-  "common":{
-    "breadcrumb": "Home"
+  "common": {
+    "breadcrumb": {
+      "Home": "Home",
+      "Pricing Page": "Pricing Page",
+      "Contact Page": "Contact Page",
+      "About Page": "About Page"
+    }
   },
-  "contact":{
+  "contact": {
     "name": "Name",
     "email": "Email",
     "title": "Lets talk",
@@ -53,10 +57,10 @@
     "emailPlaceholder": "Enter your email",
     "messagePlaceholder": "Enter your message"
   },
-  "features":{
+  "features": {
     "title": "What types of processes can be automated?",
     "paragraph": "Here are some of the areas where our automation services can make a difference.",
-    "featuresData":[
+    "featuresData": [
       {
         "title": "Social Media",
         "paragraph": "Increase your social media presence with bots that interact, generate likes, share content, and more. Automate your campaigns and stay top of mind with your customers without any additional effort."
@@ -82,10 +86,13 @@
         "paragraph": "Automate any repetitive task. We will work with you to create a custom bot that fits your needs."
       }
     ]
-  } ,
+  },
   "footer": {
-    "title": "Use client",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "sections" : [
+      "Useful Links",
+      "Terms",
+      "Support"
+    ],
     "usefulLinks": [
       "Blog",
       "Pricing",
@@ -108,7 +115,7 @@
     "contact": "Contact",
     "pricing": "Pricing"
   },
-  "hero":{
+  "hero": {
     "title": "Reduce costs and improve reliability with IT operations automation.",
     "subtitle": "Technology advances at a breakneck pace, and in the business world, adapting is key to surviving and thriving. With our automation solutions, we provide you with the tools needed to keep your company competitive and constantly growing.",
     "main-button": "Pricing",
@@ -117,6 +124,10 @@
   "pricing": {
     "title": "Pricing",
     "subtitle": "Choose the plan that best suits your needs.",
+    "time": {
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
     "plans": [
       {
         "title": "Basic",
@@ -153,40 +164,35 @@
       }
     ]
   },
-
   "testimonial": {
     "title": "What our customers say",
     "paragraph": "Our customers are our biggest supporters. Since 2007, we have helped over 10,000 customers automate their processes. Our customers are our biggest supporters. Since 2007, we have helped over 10,000 customers automate their processes.",
     "testimonials": [
-    {
-      "id": 1,
-      "name": "Musharof Chy",
-      "designation": "Founder @TailGrids",
-      "content":
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      "star": 5
-    },
-    {
-      "id": 2,
-      "name": "Devid Weilium",
-      "designation": "Founder @UIdeck",
-      "content":
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      "star": 5
-    },
-    {
-      "id": 3,
-      "name": "Lethium Frenci",
-      "designation": "Founder @Lineicons",
-      "content":
-        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-      "star": 5
-    }
-  ]},
-
-  "video":{
+      {
+        "id": 1,
+        "name": "Musharof Chy",
+        "designation": "Founder @TailGrids",
+        "content": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+        "star": 5
+      },
+      {
+        "id": 2,
+        "name": "Devid Weilium",
+        "designation": "Founder @UIdeck",
+        "content": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+        "star": 5
+      },
+      {
+        "id": 3,
+        "name": "Lethium Frenci",
+        "designation": "Founder @Lineicons",
+        "content": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+        "star": 5
+      }
+    ]
+  },
+  "video": {
     "title": "How is a process automated?",
     "paragraph": "Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients."
   }
-
 }

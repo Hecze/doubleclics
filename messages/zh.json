@@ -37,7 +37,12 @@
     "placeholder": "在这里输入您的消息..."
   },
   "common": {
-    "breadcrumb": "首页"
+    "breadcrumb": {
+      "Home": "首页",
+      "Pricing Page": "定价",
+      "Contact Page": "联系",
+      "About Page": "关于"
+    }
   },
   "contact": {
     "name": "姓名",
@@ -85,6 +90,11 @@
   "footer": {
     "title": "有用的链接",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "sections" : [
+      "有用的链接",
+      "条款",
+      "支持"
+    ],
     "usefulLinks": [
       "博客",
       "定价",
@@ -116,6 +126,10 @@
   "pricing": {
     "title": "定价",
     "subtitle": "选择最适合您需求的计划。",
+    "time": {
+      "monthly": "每月",
+      "yearly": "每年"
+    },
     "plans": [
       {
         "title": "基础",

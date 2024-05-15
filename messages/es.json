@@ -37,7 +37,12 @@
     "placeholder": "Escribe tu mensaje aquí..."
   },
   "common": {
-    "breadcrumb": "Inicio"
+    "breadcrumb": {
+      "Home": "Inicio",
+      "Pricing Page": "Precios",
+      "Contact Page": "Contacto",
+      "About Page": "Acerca de"
+    }
   },
   "contact": {
     "name": "Nombre",
@@ -83,8 +88,12 @@
     ]
   },
   "footer": {
-    "title": "Cliente útil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "sections" : [
+      "Enlaces útiles",
+      "Terminos y condiciones",
+      "Soporte"
+    ],
     "usefulLinks": [
       "Blog",
       "Precios",
@@ -116,6 +125,10 @@
   "pricing": {
     "title": "Precios",
     "subtitle": "Elige el plan que mejor se adapte a tus necesidades.",
+    "time": {
+      "monthly": "Mensual",
+      "yearly": "Anual"
+    },
     "plans": [
       {
         "title": "Básico",
