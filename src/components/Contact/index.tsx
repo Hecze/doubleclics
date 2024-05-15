@@ -12,23 +12,52 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [subject, setSubject] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false); // Estado para indicar si el formulario se está enviando
 
   const t = useTranslations('contact');
 
-  const handleSend = (e: { preventDefault: () => void; }) => {
-
+  const handleSend = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
-    const mailtoLink = `mailto:destinatario@example.com?subject=${encodeURIComponent('Nuevo mensaje de contacto')}&body=${encodeURIComponent(`Nombre: ${name}\nCorreo electrónico: ${email}\nMensaje: ${message}`)}`;
 
-    window.location.href = mailtoLink;
+    if (isSubmitting) { // Si ya está en proceso de envío, no hagas nada
+      return;
+    }
+
+    if (!email || !name || !message) {
+      console.error("All fields are required");
+      return;
+    }
+
+    setIsSubmitting(true); // Establece el estado en true para indicar que se está enviando el formulario
+
+    const res = await fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email, name, message })
+
+    });
+
+    console.log("Sending body:", JSON.stringify({ email, name, message }));
+
+    if (res.ok) {
+      console.log('Message sent successfully');
+      setEmail('');
+      setName('');
+      setMessage('');
+      
+      console.log(res)
+    } else {
+      console.log('Message not sent');
+    }
+
+    setIsSubmitting(false); // Establece el estado en false después de completar el envío o en caso de error
   }
-
 
   useEffect(() => {
     setSubject("name: " + name + " email: " + email + " message: " + message);
-  }
-    , [email, name, message]);
-
+  }, [email, name, message]);
 
   return (
     <FadeInSection animationClass="animate-fade-in-down-10 py-16 md:py-20 lg:py-28" threshold={0.25}>
@@ -106,8 +135,8 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="w-full px-4">
-                      <Button type="submit">
-                        {t('sendButton')}
+                    <Button type="submit" disabled={isSubmitting}> {/* Deshabilitar el botón si el formulario se está enviando */}
+                        {isSubmitting ? 'Sending...' : t('sendButton')} {/* Cambiar el texto del botón durante el envío */}
                       </Button>
                     </div>
                   </div>
