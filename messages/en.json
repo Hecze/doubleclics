@@ -14,7 +14,7 @@
     },
     "section2": [
       {
-        "title": "+30 years of experience.",
+        "title": "Over 30 years of experience.",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
@@ -22,32 +22,371 @@
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"
       },
       {
-        "title": "Bug free code ",
+        "title": "Error-free code",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }
     ]
   },
   "brand": {
-    "title": "We wor with"
+    "title": "We work with"
+  },
+  "blog": {
+    "title": "From our blog",
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Supplier Management: ManufacTech Case",
+        "paragraph": "The transformation of supplier management and purchase orders through RPA in a manufacturing company.",
+        "image": "/images/blog/blog-01.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Graphic Designer"
+        },
+        "tags": [
+          "RPA",
+          "Automation",
+          "Suppliers",
+          "Manufacturing"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "The implementation of RPA in supplier management can radically transform a company's operations, improving efficiency and reducing errors.",
+          "section1": {
+            "title": "Initial Problems",
+            "paragraph": "Before automation, ManufacTech faced several challenges in their supplier and purchase order management:",
+            "list": [
+              {
+                "subtitle": "Supplier Volume",
+                "paragraph": "ManufacTech worked with over 300 suppliers, generating a large number of purchase orders and communications."
+              },
+              {
+                "subtitle": "Manual Processing",
+                "paragraph": "The creation and tracking of purchase orders were done manually, making it prone to errors and delays."
+              },
+              {
+                "subtitle": "Lack of Visibility",
+                "paragraph": "The lack of visibility in the supply process made planning and inventory management difficult."
+              },
+              {
+                "subtitle": "Delays and Errors",
+                "paragraph": "Errors in purchase orders and delays in communications with suppliers affected the supply chain and production."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Implementation",
+            "paragraph": "ManufacTech decided to implement an RPA solution to improve their efficiency and reduce errors.",
+            "list": [
+              {
+                "subtitle": "Process Analysis",
+                "paragraph": "They conducted a detailed analysis of their supplier management process, identifying key tasks such as creating purchase orders, tracking deliveries, and updating records."
+              },
+              {
+                "subtitle": "Bot Development",
+                "paragraph": "They developed an RPA bot capable of extracting order data from the ERP system, automatically creating and sending purchase orders to suppliers, monitoring and updating the status of purchase orders in real-time, and managing communications and notifications with suppliers."
+              },
+              {
+                "subtitle": "ERP Integration",
+                "paragraph": "The bot was integrated with ManufacTech's existing ERP system, ensuring smooth data and process synchronization."
+              },
+              {
+                "subtitle": "Testing and Training",
+                "paragraph": "Extensive testing of the bot was conducted in a controlled environment and the purchasing team was trained to collaborate efficiently with the new technology."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Current Operation",
+            "paragraph": "With the implementation of RPA, the supplier management process at ManufacTech changed radically:",
+            "list": [
+              {
+                "subtitle": "Automated Purchase Orders",
+                "paragraph": "The bot now automatically generates and sends purchase orders to suppliers, reducing processing time from days to minutes."
+              },
+              {
+                "subtitle": "Real-Time Monitoring",
+                "paragraph": "The bot monitors the status of purchase orders in real-time, automatically updating the ERP system and notifying the team of any delays or issues."
+              },
+              {
+                "subtitle": "Error Reduction",
+                "paragraph": "Automation has significantly reduced errors in purchase orders, ensuring accurate and up-to-date information."
+              },
+              {
+                "subtitle": "Efficient Communication",
+                "paragraph": "The bot manages communications with suppliers, sending automatic notifications about order status and any changes."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Results",
+            "paragraph": "The implementation of RPA produced significant results:",
+            "list": [
+              {
+                "subtitle": "Operational Efficiency",
+                "paragraph": "The processing time for purchase orders was reduced by 80%, allowing for more agile and efficient management."
+              },
+              {
+                "subtitle": "Error Reduction",
+                "paragraph": "The accuracy of purchase orders improved by 95%, minimizing errors and issues in the supply chain."
+              },
+              {
+                "subtitle": "Supply Chain Improvement",
+                "paragraph": "Real-time visibility of order status allowed for better planning and inventory management."
+              },
+              {
+                "subtitle": "Supplier Satisfaction",
+                "paragraph": "Efficient communication and error reduction improved relationships with suppliers, increasing their satisfaction."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusion",
+            "paragraph": "The implementation of RPA in ManufacTech's supplier and purchase order management transformed their operations, improving efficiency and accuracy, and significantly enhancing the company's ability to manage its supply chain. This case demonstrates how technology can revolutionize supplier management, providing quick and accurate responses, and allowing professionals to focus on higher-value strategic tasks."
+          }
+        }
+      },
+      
+      {
+        "id": 2,
+        "title": "Social Media Management: SocialGenius Case",
+        "paragraph": "The transformation of social media management through RPA in a digital marketing agency.",
+        "image": "/images/blog/blog-02.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Graphic Designer"
+        },
+        "tags": [
+          "RPA",
+          "Automation",
+          "Social Media",
+          "Marketing"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "The implementation of RPA in social media management can radically transform a company's operations, improving efficiency and reducing errors.",
+          "section1": {
+            "title": "Initial Problems",
+            "paragraph": "Before automation, SocialGenius faced several challenges in their social media management:",
+            "list": [
+              {
+                "subtitle": "High Volume of Interactions",
+                "paragraph": "They received thousands of daily comments, messages, and mentions on various platforms (Facebook, Twitter, Instagram, LinkedIn)."
+              },
+              {
+                "subtitle": "Manual Monitoring",
+                "paragraph": "Monitoring and responding to each interaction were done manually, which was very laborious and time-consuming."
+              },
+              {
+                "subtitle": "Delayed Responses",
+                "paragraph": "Due to the high volume of interactions, responses were often slow, affecting the perception of the brands they managed."
+              },
+              {
+                "subtitle": "Errors and Consistency",
+                "paragraph": "Manual management led to inconsistencies in responses and human errors, which could damage the brands' image."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Implementation",
+            "paragraph": "To improve efficiency and maintain an active and consistent presence on social media, SocialGenius decided to implement an RPA solution.",
+            "list": [
+              {
+                "subtitle": "Process Analysis",
+                "paragraph": "They conducted a thorough analysis of their social media management processes, identifying key tasks such as monitoring interactions, classifying messages and comments, and responding to frequent queries."
+              },
+              {
+                "subtitle": "Bot Development",
+                "paragraph": "They developed an RPA bot capable of monitoring all mentions, messages, and comments on various platforms in real-time, classifying interactions by their nature (queries, complaints, positive comments, etc.), generating automatic responses for frequent queries, and redirecting complex interactions to the appropriate community managers."
+              },
+              {
+                "subtitle": "Integration with Management Tools",
+                "paragraph": "The bot was integrated with social media management tools like Hootsuite and Buffer, allowing centralized and efficient management."
+              },
+              {
+                "subtitle": "Testing and Training",
+                "paragraph": "Extensive testing of the bot was conducted in a controlled environment, and the team was trained to collaborate efficiently with the new technology."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Current Operation",
+            "paragraph": "With the implementation of RPA, the social media management process at SocialGenius changed radically:",
+            "list": [
+              {
+                "subtitle": "Automated Monitoring",
+                "paragraph": "The bot now monitors all platforms in real-time, detecting relevant interactions instantly."
+              },
+              {
+                "subtitle": "Immediate Responses",
+                "paragraph": "For frequent queries, the bot sends immediate automatic responses, maintaining a smooth and quick interaction."
+              },
+              {
+                "subtitle": "Efficient Classification",
+                "paragraph": "The bot classifies interactions, identifying queries, complaints, and positive comments, and redirecting complex interactions to the appropriate community managers."
+              },
+              {
+                "subtitle": "Error Reduction",
+                "paragraph": "Automation has significantly reduced errors and ensured consistency in responses."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Results",
+            "paragraph": "The implementation of RPA produced significant results:",
+            "list": [
+              {
+                "subtitle": "Response Time",
+                "paragraph": "The average response time was reduced from several hours to a few minutes."
+              },
+              {
+                "subtitle": "Customer Satisfaction",
+                "paragraph": "Satisfaction surveys showed a 40% increase in positive perception of the managed brands."
+              },
+              {
+                "subtitle": "Operational Efficiency",
+                "paragraph": "Community managers can now focus on more complex and strategic interactions, improving their productivity and creativity."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusion",
+            "paragraph": "The implementation of RPA in SocialGenius's social media management transformed their operations, improving efficiency and consistency, and significantly enhancing the perception of the brands they managed. This case demonstrates how technology can revolutionize social media management, providing quick and accurate responses, and allowing professionals to focus on higher-value strategic tasks."
+          }
+        }
+      },
+
+      {
+        "id": 3,
+        "title": "Customer Service: The Transformation of TechSolutions",
+        "paragraph": "Company: TechSolutions, a software company that offers technical support to its customers.",
+        "image": "/images/blog/blog-03.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Graphic Designer"
+        },
+        "tags": [
+          "RPA",
+          "Automation",
+          "Customer Service",
+          "Software"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "Before automation, TechSolutions faced multiple challenges in their customer service department.",
+          "section1": {
+            "title": "Initial Problems",
+            "paragraph": "TechSolutions faced multiple challenges in their customer service department:",
+            "list": [
+              {
+                "subtitle": "High Volume of Queries",
+                "paragraph": "They received an average of 500 emails daily with technical queries and issues."
+              },
+              {
+                "subtitle": "Slow Response Time",
+                "paragraph": "Support agents took between 24 to 48 hours to respond to each email, due to the need to manually read and categorize each query."
+              },
+              {
+                "subtitle": "Human Errors",
+                "paragraph": "Manual classification of emails often resulted in errors, leading to queries being directed to the wrong department."
+              },
+              {
+                "subtitle": "Customer Dissatisfaction",
+                "paragraph": "The waiting time and errors in service led to low customer satisfaction."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Automation Decision",
+            "paragraph": "To improve efficiency and customer satisfaction, TechSolutions decided to implement an RPA solution. After thorough research, they selected Blue Prism's RPA software to automate the classification and initial response of emails.",
+            "list": [
+              {
+                "subtitle": "Process Analysis",
+                "paragraph": "TechSolutions conducted a detailed analysis of their current email management process, identifying key steps: receiving the email, reading, classifying according to the query (technical, commercial, administrative), and initial response."
+              },
+              {
+                "subtitle": "Bot Development",
+                "paragraph": "With the help of Blue Prism consultants, they developed an RPA bot that could read and analyze the content of each email, classify the email into one of the three main categories (technical, commercial, administrative), generate an automatic response for common queries, and direct complex queries to the appropriate agent."
+              },
+              {
+                "subtitle": "CRM Integration",
+                "paragraph": "The bot was integrated with their CRM (Customer Relationship Management) system, allowing automatic record updates and case tracking."
+              },
+              {
+                "subtitle": "Testing and Training",
+                "paragraph": "TechSolutions conducted extensive testing of the bot in a controlled environment and trained their staff to work together with the new technology."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Current Operation",
+            "paragraph": "With the implementation of RPA, the customer service process at TechSolutions changed drastically:",
+            "list": [
+              {
+                "subtitle": "Automated Classification",
+                "paragraph": "The bot now receives all emails, reads, and classifies them in real-time. This reduced classification time from hours to seconds."
+              },
+              {
+                "subtitle": "Automatic Responses",
+                "paragraph": "For common queries, such as password resets or product information, the bot sends immediate automatic responses, drastically reducing response time."
+              },
+              {
+                "subtitle": "Error Reduction",
+                "paragraph": "Automatic classification has reduced categorization errors by 95%, ensuring that complex queries reach the appropriate agent quickly."
+              },
+              {
+                "subtitle": "Monitoring and Continuous Improvement",
+                "paragraph": "The IT team monitors the bot's performance and makes periodic adjustments to improve its accuracy and responsiveness."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Results",
+            "paragraph": "The implementation of RPA produced significant results:",
+            "list": [
+              {
+                "subtitle": "Response Time",
+                "paragraph": "The average response time was reduced from 24-48 hours to less than 1 hour."
+              },
+              {
+                "subtitle": "Customer Satisfaction",
+                "paragraph": "Customer satisfaction surveys showed a 30% increase in overall satisfaction."
+              },
+              {
+                "subtitle": "Operational Efficiency",
+                "paragraph": "Support agents can now focus on more complex issues, improving their productivity and morale."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusion",
+            "paragraph": "The implementation of RPA in TechSolutions' customer service department radically transformed their operations. Automation not only improved efficiency and accuracy but also significantly increased customer satisfaction, demonstrating how technology can be a powerful ally in business transformation."
+          }
+        }
+      }
+    ]
   },
   "chatbot": {
-    "systemMessage": "Introduction: You are an intelligent chatbot that speaks English designed to help visitors of DoubleClics, a company that offers automation services...",
-    "welcomeMessage": "Hello! I'm the DoubleClics Assistant. How can I help you?",
+    "systemMessage": "Introduction: You are an intelligent English-speaking chatbot designed to assist visitors to DoubleClics, a company that offers automation services...",
+    "welcomeMessage": "Hello! I am the DoubleClics Assistant. How can I help you?",
     "chatbotName": "DoubleClics Assistant",
     "placeholder": "Type your message here..."
   },
   "common": {
     "breadcrumb": {
       "Home": "Home",
-      "Pricing Page": "Pricing Page",
-      "Contact Page": "Contact Page",
-      "About Page": "About Page"
+      "Pricing Page": "Pricing",
+      "Contact Page": "Contact",
+      "About Page": "About",
+      "Blog Page": "Blog"
     }
   },
   "contact": {
     "name": "Name",
     "email": "Email",
-    "title": "Lets talk",
+    "title": "Let's Talk",
     "paragraph": "Our team will respond instantly to address any of your questions.",
     "nameLabel": "Your Name",
     "emailLabel": "Your Email",
@@ -59,11 +398,11 @@
   },
   "features": {
     "title": "What types of processes can be automated?",
-    "paragraph": "Here are some of the areas where our automation services can make a difference.",
+    "paragraph": "Here are some areas where our automation services can make a difference.",
     "featuresData": [
       {
         "title": "Social Media",
-        "paragraph": "Increase your social media presence with bots that interact, generate likes, share content, and more. Automate your campaigns and stay top of mind with your customers without any additional effort."
+        "paragraph": "Increase your social media presence with bots that interact, generate likes, share content, and more. Automate your campaigns and stay on top of your customers' minds effortlessly."
       },
       {
         "title": "Vulnerability Testing",
@@ -71,15 +410,15 @@
       },
       {
         "title": "Call Centers",
-        "paragraph": "Optimize your call center with bots that can respond to basic queries, route calls, and collect information, reducing the workload on your human team and improving efficiency."
+        "paragraph": "Optimize your call center with bots that can answer basic queries, direct calls, and collect information, reducing the workload on your human team and improving efficiency."
       },
       {
         "title": "Sales and Marketing",
-        "paragraph": "Streamline your sales force with bots that can manage contacts, send emails, and perform automated follow-ups."
+        "paragraph": "Optimize your sales force with bots that can manage contacts, send emails, and perform automated follow-ups."
       },
       {
         "title": "Data Analysis and Reporting",
-        "paragraph": "Get precise and quick reports. With our bots, you can obtain key insights for decision-making without hours of manual labor."
+        "paragraph": "Get accurate and fast reports. With our bots, you can gain key insights for decision-making without hours of manual work."
       },
       {
         "title": "Custom Bots",
@@ -88,9 +427,10 @@
     ]
   },
   "footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
     "sections" : [
-      "Useful Links",
-      "Terms",
+      "Useful links",
+      "Terms and conditions",
       "Support"
     ],
     "usefulLinks": [
@@ -99,7 +439,7 @@
       "About"
     ],
     "termsLinks": [
-      "TOS",
+      "Terms of Service",
       "Privacy Policy",
       "Refund Policy"
     ],
@@ -117,7 +457,7 @@
   },
   "hero": {
     "title": "Reduce costs and improve reliability with IT operations automation.",
-    "subtitle": "Technology advances at a breakneck pace, and in the business world, adapting is key to surviving and thriving. With our automation solutions, we provide you with the tools needed to keep your company competitive and constantly growing.",
+    "subtitle": "Technology is advancing at a rapid pace, and in the business world, adapting is key to surviving and thriving. With our automation solutions, we provide you with the necessary tools to keep your company competitive and growing.",
     "main-button": "Pricing",
     "secondary-button": "Discover the possibilities"
   },
@@ -132,7 +472,7 @@
       {
         "title": "Basic",
         "price": "$9.99",
-        "description": "For small businesses that need to automate basic processes.",
+        "description": "For small businesses needing to automate basic processes.",
         "features": [
           "5 bots",
           "Basic support",
@@ -143,7 +483,7 @@
       {
         "title": "Pro",
         "price": "$19.99",
-        "description": "For medium-sized businesses that need to automate more complex processes.",
+        "description": "For medium-sized businesses needing to automate more complex processes.",
         "features": [
           "10 bots",
           "Priority support",
@@ -154,7 +494,7 @@
       {
         "title": "Enterprise",
         "price": "$29.99",
-        "description": "For large companies that need to automate multiple processes.",
+        "description": "For large businesses needing to automate multiple processes.",
         "features": [
           "Unlimited bots",
           "24/7 support",
@@ -166,27 +506,27 @@
   },
   "testimonial": {
     "title": "What our customers say",
-    "paragraph": "Our customers are our biggest supporters. Since 2007, we have helped over 10,000 customers automate their processes. Our customers are our biggest supporters. Since 2007, we have helped over 10,000 customers automate their processes.",
+    "paragraph": "Our customers are our greatest advocates. Since 2007, we have helped over 10,000 customers automate their processes. Our customers are our greatest advocates. Since 2007, we have helped over 10,000 customers automate their processes.",
     "testimonials": [
       {
         "id": 1,
         "name": "Musharof Chy",
         "designation": "Founder @TailGrids",
-        "content": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+        "content": "Our members are very impressed. It's intuitive. It's clean. It's distraction-free. If you are building a community.",
         "star": 5
       },
       {
         "id": 2,
         "name": "Devid Weilium",
         "designation": "Founder @UIdeck",
-        "content": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+        "content": "Our members are very impressed. It's intuitive. It's clean. It's distraction-free. If you are building a community.",
         "star": 5
       },
       {
         "id": 3,
         "name": "Lethium Frenci",
         "designation": "Founder @Lineicons",
-        "content": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+        "content": "Our members are very impressed. It's intuitive. It's clean. It's distraction-free. If you are building a community.",
         "star": 5
       }
     ]

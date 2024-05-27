@@ -30,6 +30,347 @@
   "brand": {
     "title": "Trabajamos con"
   },
+  "blog": {
+    "title": "From our blog",
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Gestión de Proveedores: Caso ManufacTech",
+        "paragraph": "La transformación de la gestión de proveedores y órdenes de compra mediante RPA en una empresa manufacturera.",
+        "image": "/images/blog/blog-01.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Graphic Designer"
+        },
+        "tags": [
+          "RPA",
+          "Automatización",
+          "Proveedores",
+          "Manufactura"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "La implementación de RPA en la gestión de proveedores puede transformar radicalmente las operaciones de una empresa, mejorando la eficiencia y reduciendo errores.",
+          "section1": {
+            "title": "Problemas Iniciales",
+            "paragraph": "Antes de la automatización, ManufacTech enfrentaba varios desafíos en su gestión de proveedores y órdenes de compra:",
+            "list": [
+              {
+                "subtitle": "Volumen de Proveedores",
+                "paragraph": "ManufacTech trabajaba con más de 300 proveedores, lo que generaba una gran cantidad de órdenes de compra y comunicaciones."
+              },
+              {
+                "subtitle": "Procesamiento Manual",
+                "paragraph": "La creación y seguimiento de órdenes de compra se realizaba manualmente, lo que era propenso a errores y retrasos."
+              },
+              {
+                "subtitle": "Falta de Visibilidad",
+                "paragraph": "La falta de visibilidad en el proceso de suministro dificultaba la planificación y la gestión de inventarios."
+              },
+              {
+                "subtitle": "Retrasos y Errores",
+                "paragraph": "Los errores en las órdenes de compra y los retrasos en las comunicaciones con los proveedores afectaban la cadena de suministro y la producción."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Implementación",
+            "paragraph": "ManufacTech decidió implementar una solución de RPA para mejorar su eficiencia y reducir errores.",
+            "list": [
+              {
+                "subtitle": "Análisis de Procesos",
+                "paragraph": "Realizaron un análisis detallado de su proceso de gestión de proveedores, identificando tareas clave como la creación de órdenes de compra, el seguimiento de entregas y la actualización de registros."
+              },
+              {
+                "subtitle": "Desarrollo del Bot",
+                "paragraph": "Desarrollaron un bot RPA capaz de extraer datos de pedidos desde el sistema ERP, crear y enviar automáticamente órdenes de compra a los proveedores, monitorear y actualizar el estado de las órdenes de compra en tiempo real, y gestionar las comunicaciones y notificaciones con los proveedores."
+              },
+              {
+                "subtitle": "Integración con el ERP",
+                "paragraph": "El bot se integró con el sistema ERP existente de ManufacTech, asegurando una sincronización fluida de datos y procesos."
+              },
+              {
+                "subtitle": "Pruebas y Entrenamiento",
+                "paragraph": "Se llevaron a cabo pruebas exhaustivas del bot en un entorno controlado y se capacitó al equipo de compras para colaborar eficientemente con la nueva tecnología."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Operación Actual",
+            "paragraph": "Con la implementación de RPA, el proceso de gestión de proveedores en ManufacTech cambió radicalmente:",
+            "list": [
+              {
+                "subtitle": "Automatización de Órdenes de Compra",
+                "paragraph": "El bot ahora genera y envía automáticamente las órdenes de compra a los proveedores, reduciendo el tiempo de procesamiento de días a minutos."
+              },
+              {
+                "subtitle": "Monitoreo en Tiempo Real",
+                "paragraph": "El bot monitorea el estado de las órdenes de compra en tiempo real, actualizando automáticamente el sistema ERP y notificando al equipo de cualquier retraso o problema."
+              },
+              {
+                "subtitle": "Reducción de Errores",
+                "paragraph": "La automatización ha reducido significativamente los errores en las órdenes de compra, asegurando que la información sea precisa y actualizada."
+              },
+              {
+                "subtitle": "Comunicación Eficiente",
+                "paragraph": "El bot gestiona las comunicaciones con los proveedores, enviando notificaciones automáticas sobre el estado de las órdenes y cualquier cambio en los pedidos."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Resultados",
+            "paragraph": "La implementación de RPA produjo resultados significativos:",
+            "list": [
+              {
+                "subtitle": "Eficiencia Operativa",
+                "paragraph": "El tiempo de procesamiento de órdenes de compra se redujo en un 80%, permitiendo una gestión más ágil y eficiente."
+              },
+              {
+                "subtitle": "Reducción de Errores",
+                "paragraph": "La precisión en las órdenes de compra mejoró un 95%, minimizando los errores y los problemas en la cadena de suministro."
+              },
+              {
+                "subtitle": "Mejora en la Cadena de Suministro",
+                "paragraph": "La visibilidad en tiempo real del estado de las órdenes permitió una mejor planificación y gestión de inventarios."
+              },
+              {
+                "subtitle": "Satisfacción de los Proveedores",
+                "paragraph": "La comunicación eficiente y la reducción de errores mejoraron las relaciones con los proveedores, aumentando su satisfacción."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusión",
+            "paragraph": "La implementación de RPA en la gestión de proveedores y órdenes de compra de ManufacTech transformó sus operaciones, mejorando la eficiencia y la precisión, y elevando significativamente la capacidad de la empresa para gestionar su cadena de suministro. Este caso demuestra cómo la tecnología puede revolucionar la gestión de proveedores, proporcionando respuestas rápidas y precisas, y permitiendo a los profesionales enfocarse en tareas de mayor valor estratégico."
+          }
+        }
+      },
+      
+      {
+        "id": 2,
+        "title": "Gestión de Redes Sociales: Caso SocialGenius",
+        "paragraph": "La transformación de la gestión de redes sociales mediante RPA en una agencia de marketing digital.",
+        "image": "/images/blog/blog-02.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Graphic Designer"
+        },
+        "tags": [
+          "RPA",
+          "Automatización",
+          "Redes Sociales",
+          "Marketing"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "La implementación de RPA en la gestión de redes sociales puede transformar radicalmente las operaciones de una empresa, mejorando la eficiencia y reduciendo errores.",
+          "section1": {
+            "title": "Problemas Iniciales",
+            "paragraph": "Antes de la automatización, SocialGenius enfrentaba varios desafíos en su gestión de redes sociales:",
+            "list": [
+              {
+                "subtitle": "Alta Volumen de Interacciones",
+                "paragraph": "Recibían miles de comentarios, mensajes y menciones diarias en diversas plataformas (Facebook, Twitter, Instagram, LinkedIn)."
+              },
+              {
+                "subtitle": "Monitoreo Manual",
+                "paragraph": "El monitoreo y la respuesta a cada interacción se realizaban manualmente, lo que era muy laborioso y consumía mucho tiempo."
+              },
+              {
+                "subtitle": "Respuestas Tardías",
+                "paragraph": "Debido al alto volumen de interacciones, las respuestas a menudo eran lentas, afectando la percepción de las marcas que manejaban."
+              },
+              {
+                "subtitle": "Errores y Consistencia",
+                "paragraph": "La gestión manual llevaba a inconsistencias en las respuestas y errores humanos, lo que podía dañar la imagen de las marcas."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Implementación",
+            "paragraph": "Para mejorar su eficiencia y mantener una presencia activa y coherente en las redes sociales, SocialGenius decidió implementar una solución de RPA.",
+            "list": [
+              {
+                "subtitle": "Análisis de Procesos",
+                "paragraph": "Realizaron un análisis exhaustivo de sus procesos de gestión de redes sociales, identificando tareas clave como el monitoreo de interacciones, la clasificación de mensajes y comentarios, y la respuesta a consultas frecuentes."
+              },
+              {
+                "subtitle": "Desarrollo del Bot",
+                "paragraph": "Desarrollaron un bot RPA capaz de monitorear en tiempo real todas las menciones, mensajes y comentarios en diversas plataformas, clasificar interacciones según su naturaleza (consultas, quejas, comentarios positivos, etc.), generar respuestas automáticas para consultas frecuentes y redirigir interacciones complejas a los community managers."
+              },
+              {
+                "subtitle": "Integración con Herramientas de Gestión",
+                "paragraph": "El bot se integró con herramientas de gestión de redes sociales como Hootsuite y Buffer, permitiendo una gestión centralizada y eficiente."
+              },
+              {
+                "subtitle": "Pruebas y Entrenamiento",
+                "paragraph": "Se llevaron a cabo pruebas exhaustivas del bot en un entorno controlado, y se capacitó al equipo para colaborar eficientemente con la nueva tecnología."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Operación Actual",
+            "paragraph": "Con la implementación de RPA, el proceso de gestión de redes sociales en SocialGenius cambió radicalmente:",
+            "list": [
+              {
+                "subtitle": "Monitoreo Automatizado",
+                "paragraph": "El bot ahora monitorea todas las plataformas en tiempo real, detectando interacciones relevantes al instante."
+              },
+              {
+                "subtitle": "Respuestas Inmediatas",
+                "paragraph": "Para consultas frecuentes, el bot envía respuestas automáticas inmediatas, manteniendo una interacción fluida y rápida."
+              },
+              {
+                "subtitle": "Clasificación Eficiente",
+                "paragraph": "El bot clasifica las interacciones, identificando consultas, quejas y comentarios positivos, y redirigiendo las interacciones complejas a los community managers adecuados."
+              },
+              {
+                "subtitle": "Reducción de Errores",
+                "paragraph": "La automatización ha reducido significativamente los errores y ha asegurado la consistencia en las respuestas."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Resultados",
+            "paragraph": "La implementación de RPA produjo resultados significativos:",
+            "list": [
+              {
+                "subtitle": "Tiempo de Respuesta",
+                "paragraph": "El tiempo promedio de respuesta se redujo de varias horas a unos pocos minutos."
+              },
+              {
+                "subtitle": "Satisfacción del Cliente",
+                "paragraph": "Las encuestas de satisfacción mostraron un aumento del 40% en la percepción positiva de las marcas gestionadas."
+              },
+              {
+                "subtitle": "Eficiencia Operativa",
+                "paragraph": "Los community managers ahora pueden enfocarse en interacciones más complejas y estratégicas, mejorando su productividad y creatividad."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusión",
+            "paragraph": "La implementación de RPA en la gestión de redes sociales de SocialGenius transformó sus operaciones, mejorando la eficiencia y la consistencia, y elevando significativamente la percepción de las marcas que manejaban. Este caso demuestra cómo la tecnología puede revolucionar la gestión de redes sociales, proporcionando respuestas rápidas y precisas, y permitiendo a los profesionales enfocarse en tareas de mayor valor estratégico."
+          }
+        }
+      },
+
+      {
+        "id": 3,
+        "title": "Atención al Cliente: La Transformación de TechSolutions",
+        "paragraph": "Empresa: TechSolutions, una empresa de software que ofrece soporte técnico a sus clientes.",
+        "image": "/images/blog/blog-03.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Graphic Designer"
+        },
+        "tags": [
+          "RPA",
+          "Automatización",
+          "Atención al Cliente",
+          "Software"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "Antes de la automatización, TechSolutions enfrentaba múltiples desafíos en su departamento de atención al cliente.",
+          "section1": {
+            "title": "Problemas Iniciales",
+            "paragraph": "TechSolutions enfrentaba múltiples desafíos en su departamento de atención al cliente:",
+            "list": [
+              {
+                "subtitle": "Alta Volumen de Consultas",
+                "paragraph": "Recibían un promedio de 500 correos electrónicos diarios con consultas y problemas técnicos."
+              },
+              {
+                "subtitle": "Tiempo de Respuesta Lento",
+                "paragraph": "Los agentes de soporte tomaban entre 24 a 48 horas para responder a cada correo, debido a la necesidad de leer y categorizar manualmente cada consulta."
+              },
+              {
+                "subtitle": "Errores Humanos",
+                "paragraph": "La clasificación manual de los correos a menudo resultaba en errores, lo que provocaba que las consultas fueran dirigidas al departamento incorrecto."
+              },
+              {
+                "subtitle": "Insatisfacción del Cliente",
+                "paragraph": "El tiempo de espera y los errores en la atención llevaban a una baja satisfacción del cliente."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Decisión de Automatización",
+            "paragraph": "Para mejorar su eficiencia y satisfacción del cliente, TechSolutions decidió implementar una solución de RPA. Después de una investigación exhaustiva, seleccionaron el software RPA de Blue Prism para automatizar la clasificación y respuesta inicial de correos electrónicos.",
+            "list": [
+              {
+                "subtitle": "Análisis de Procesos",
+                "paragraph": "TechSolutions realizó un análisis detallado de su proceso actual de gestión de correos electrónicos, identificando los pasos clave: recepción del correo, lectura, clasificación según la consulta (técnica, comercial, administrativa), y respuesta inicial."
+              },
+              {
+                "subtitle": "Desarrollo del Bot",
+                "paragraph": "Con la ayuda de consultores de Blue Prism, desarrollaron un bot RPA que podía leer y analizar el contenido de cada correo, clasificar el correo en una de las tres categorías principales (técnica, comercial, administrativa), generar una respuesta automática para consultas comunes y dirigir consultas complejas al agente correspondiente."
+              },
+              {
+                "subtitle": "Integración con el Sistema de CRM",
+                "paragraph": "El bot se integró con su sistema de CRM (Customer Relationship Management), permitiendo la actualización automática de registros y el seguimiento de cada caso."
+              },
+              {
+                "subtitle": "Pruebas y Entrenamiento",
+                "paragraph": "TechSolutions realizó pruebas exhaustivas del bot en un entorno controlado y entrenó a su personal para trabajar en conjunto con la nueva tecnología."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Operación Actual",
+            "paragraph": "Con la implementación de RPA, el proceso de atención al cliente en TechSolutions cambió drásticamente:",
+            "list": [
+              {
+                "subtitle": "Automatización de Clasificación",
+                "paragraph": "El bot ahora recibe todos los correos electrónicos, los lee y los clasifica en tiempo real. Esto redujo el tiempo de clasificación de horas a segundos."
+              },
+              {
+                "subtitle": "Respuestas Automáticas",
+                "paragraph": "Para consultas comunes, como reseteo de contraseñas o información sobre productos, el bot envía respuestas automáticas inmediatas, reduciendo drásticamente el tiempo de respuesta."
+              },
+              {
+                "subtitle": "Reducción de Errores",
+                "paragraph": "La clasificación automática ha reducido los errores de categorización en un 95%, asegurando que las consultas complejas lleguen rápidamente al agente adecuado."
+              },
+              {
+                "subtitle": "Monitoreo y Mejora Continua",
+                "paragraph": "El equipo de TI monitorea el rendimiento del bot y realiza ajustes periódicos para mejorar su precisión y capacidad de respuesta."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Resultados",
+            "paragraph": "La implementación de RPA produjo resultados significativos:",
+            "list": [
+              {
+                "subtitle": "Tiempo de Respuesta",
+                "paragraph": "El tiempo promedio de respuesta se redujo de 24-48 horas a menos de 1 hora."
+              },
+              {
+                "subtitle": "Satisfacción del Cliente",
+                "paragraph": "Las encuestas de satisfacción del cliente mostraron un aumento del 30% en la satisfacción general."
+              },
+              {
+                "subtitle": "Eficiencia Operativa",
+                "paragraph": "Los agentes de soporte ahora pueden enfocarse en problemas más complejos, mejorando su productividad y moral."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusión",
+            "paragraph": "La implementación de RPA en el departamento de atención al cliente de TechSolutions transformó radicalmente sus operaciones. La automatización no solo mejoró la eficiencia y precisión, sino que también elevó significativamente la satisfacción del cliente, demostrando cómo la tecnología puede ser un aliado poderoso en la transformación empresarial."
+          }
+        }
+      }
+      
+
+      
+    ]
+  },
   "chatbot": {
     "systemMessage": "Introducción: Eres un chatbot inteligente que habla inglés diseñado para ayudar a los visitantes de DoubleClics, una empresa que ofrece servicios de automatización...",
     "welcomeMessage": "¡Hola! Soy el Asistente de DoubleClics. ¿En qué puedo ayudarte?",
@@ -41,7 +382,8 @@
       "Home": "Inicio",
       "Pricing Page": "Precios",
       "Contact Page": "Contacto",
-      "About Page": "Acerca de"
+      "About Page": "Acerca de",
+      "Blog Page": "Blog"
     }
   },
   "contact": {

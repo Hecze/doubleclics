@@ -2,7 +2,7 @@
   "about": {
     "section1": {
       "title": "Especialistas em Automação e Desenvolvimento de Software.",
-      "paragraph": "Nossa equipe é composta por especialistas em automação, desenvolvimento de software e estratégia empresarial, todos com um objetivo comum: tornar a tecnologia uma aliada para nossos clientes.",
+      "paragraph": "Nossa equipe é composta por especialistas em automação, desenvolvimento de software e estratégia empresarial, todos com um objetivo comum: fazer da tecnologia uma aliada para nossos clientes.",
       "list": [
         "Qualidade premium",
         "Soluções personalizadas",
@@ -28,12 +28,350 @@
     ]
   },
   "brand": {
-    "title": "Nós trabalhamos com"
+    "title": "Trabalhamos com"
+  },
+  "blog": {
+    "title": "Do nosso blog",
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Gestão de Fornecedores: Caso ManufacTech",
+        "paragraph": "A transformação da gestão de fornecedores e pedidos de compra através do RPA em uma empresa de manufatura.",
+        "image": "/images/blog/blog-01.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Designer Gráfico"
+        },
+        "tags": [
+          "RPA",
+          "Automação",
+          "Fornecedores",
+          "Manufatura"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "A implementação do RPA na gestão de fornecedores pode transformar radicalmente as operações de uma empresa, melhorando a eficiência e reduzindo erros.",
+          "section1": {
+            "title": "Problemas Iniciais",
+            "paragraph": "Antes da automação, a ManufacTech enfrentava vários desafios na gestão de fornecedores e pedidos de compra:",
+            "list": [
+              {
+                "subtitle": "Volume de Fornecedores",
+                "paragraph": "A ManufacTech trabalhava com mais de 300 fornecedores, o que gerava uma grande quantidade de pedidos de compra e comunicações."
+              },
+              {
+                "subtitle": "Processamento Manual",
+                "paragraph": "A criação e acompanhamento dos pedidos de compra eram feitos manualmente, tornando-os propensos a erros e atrasos."
+              },
+              {
+                "subtitle": "Falta de Visibilidade",
+                "paragraph": "A falta de visibilidade no processo de fornecimento dificultava o planejamento e a gestão de estoques."
+              },
+              {
+                "subtitle": "Atrasos e Erros",
+                "paragraph": "Erros nos pedidos de compra e atrasos nas comunicações com os fornecedores afetavam a cadeia de suprimentos e a produção."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Implementação",
+            "paragraph": "A ManufacTech decidiu implementar uma solução de RPA para melhorar sua eficiência e reduzir erros.",
+            "list": [
+              {
+                "subtitle": "Análise de Processos",
+                "paragraph": "Realizaram uma análise detalhada do seu processo de gestão de fornecedores, identificando tarefas-chave como criação de pedidos de compra, acompanhamento de entregas e atualização de registros."
+              },
+              {
+                "subtitle": "Desenvolvimento do Bot",
+                "paragraph": "Desenvolveram um bot RPA capaz de extrair dados de pedidos do sistema ERP, criar e enviar automaticamente pedidos de compra aos fornecedores, monitorar e atualizar o status dos pedidos de compra em tempo real, e gerenciar as comunicações e notificações com os fornecedores."
+              },
+              {
+                "subtitle": "Integração com o ERP",
+                "paragraph": "O bot foi integrado com o sistema ERP existente da ManufacTech, garantindo uma sincronização fluida de dados e processos."
+              },
+              {
+                "subtitle": "Testes e Treinamento",
+                "paragraph": "Testes extensivos do bot foram realizados em um ambiente controlado e a equipe de compras foi treinada para colaborar eficientemente com a nova tecnologia."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Operação Atual",
+            "paragraph": "Com a implementação do RPA, o processo de gestão de fornecedores na ManufacTech mudou radicalmente:",
+            "list": [
+              {
+                "subtitle": "Automatização de Pedidos de Compra",
+                "paragraph": "O bot agora gera e envia automaticamente os pedidos de compra aos fornecedores, reduzindo o tempo de processamento de dias para minutos."
+              },
+              {
+                "subtitle": "Monitoramento em Tempo Real",
+                "paragraph": "O bot monitora o status dos pedidos de compra em tempo real, atualizando automaticamente o sistema ERP e notificando a equipe sobre qualquer atraso ou problema."
+              },
+              {
+                "subtitle": "Redução de Erros",
+                "paragraph": "A automação reduziu significativamente os erros nos pedidos de compra, garantindo que as informações sejam precisas e atualizadas."
+              },
+              {
+                "subtitle": "Comunicação Eficiente",
+                "paragraph": "O bot gerencia as comunicações com os fornecedores, enviando notificações automáticas sobre o status dos pedidos e quaisquer alterações."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Resultados",
+            "paragraph": "A implementação do RPA produziu resultados significativos:",
+            "list": [
+              {
+                "subtitle": "Eficiência Operacional",
+                "paragraph": "O tempo de processamento dos pedidos de compra foi reduzido em 80%, permitindo uma gestão mais ágil e eficiente."
+              },
+              {
+                "subtitle": "Redução de Erros",
+                "paragraph": "A precisão nos pedidos de compra melhorou em 95%, minimizando erros e problemas na cadeia de suprimentos."
+              },
+              {
+                "subtitle": "Melhoria na Cadeia de Suprimentos",
+                "paragraph": "A visibilidade em tempo real do status dos pedidos permitiu um melhor planejamento e gestão de estoques."
+              },
+              {
+                "subtitle": "Satisfação dos Fornecedores",
+                "paragraph": "A comunicação eficiente e a redução de erros melhoraram os relacionamentos com os fornecedores, aumentando sua satisfação."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusão",
+            "paragraph": "A implementação do RPA na gestão de fornecedores e pedidos de compra da ManufacTech transformou suas operações, melhorando a eficiência e a precisão, e elevando significativamente a capacidade da empresa para gerir sua cadeia de suprimentos. Este caso demonstra como a tecnologia pode revolucionar a gestão de fornecedores, proporcionando respostas rápidas e precisas, e permitindo que os profissionais se concentrem em tarefas de maior valor estratégico."
+          }
+        }
+      },
+      
+      {
+        "id": 2,
+        "title": "Gestão de Mídias Sociais: Caso SocialGenius",
+        "paragraph": "A transformação da gestão de mídias sociais através do RPA em uma agência de marketing digital.",
+        "image": "/images/blog/blog-02.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Designer Gráfico"
+        },
+        "tags": [
+          "RPA",
+          "Automação",
+          "Mídias Sociais",
+          "Marketing"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "A implementação do RPA na gestão de mídias sociais pode transformar radicalmente as operações de uma empresa, melhorando a eficiência e reduzindo erros.",
+          "section1": {
+            "title": "Problemas Iniciais",
+            "paragraph": "Antes da automação, a SocialGenius enfrentava vários desafios na gestão de mídias sociais:",
+            "list": [
+              {
+                "subtitle": "Alto Volume de Interações",
+                "paragraph": "Recebiam milhares de comentários, mensagens e menções diárias em diversas plataformas (Facebook, Twitter, Instagram, LinkedIn)."
+              },
+              {
+                "subtitle": "Monitoramento Manual",
+                "paragraph": "O monitoramento e a resposta a cada interação eram feitos manualmente, o que era muito trabalhoso e consumia muito tempo."
+              },
+              {
+                "subtitle": "Respostas Tardias",
+                "paragraph": "Devido ao alto volume de interações, as respostas frequentemente eram lentas, afetando a percepção das marcas que gerenciavam."
+              },
+              {
+                "subtitle": "Erros e Consistência",
+                "paragraph": "A gestão manual levava a inconsistências nas respostas e erros humanos, o que podia prejudicar a imagem das marcas."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Implementação",
+            "paragraph": "Para melhorar sua eficiência e manter uma presença ativa e coerente nas mídias sociais, a SocialGenius decidiu implementar uma solução de RPA.",
+            "list": [
+              {
+                "subtitle": "Análise de Processos",
+                "paragraph": "Realizaram uma análise exaustiva de seus processos de gestão de mídias sociais, identificando tarefas-chave como monitoramento de interações, classificação de mensagens e comentários, e resposta a consultas frequentes."
+              },
+              {
+                "subtitle": "Desenvolvimento do Bot",
+                "paragraph": "Desenvolveram um bot RPA capaz de monitorar em tempo real todas as menções, mensagens e comentários em diversas plataformas, classificar interações conforme sua natureza (consultas, reclamações, comentários positivos, etc.), gerar respostas automáticas para consultas frequentes e redirecionar interações complexas aos community managers."
+              },
+              {
+                "subtitle": "Integração com Ferramentas de Gestão",
+                "paragraph": "O bot foi integrado com ferramentas de gestão de mídias sociais como Hootsuite e Buffer, permitindo uma gestão centralizada e eficiente."
+              },
+              {
+                "subtitle": "Testes e Treinamento",
+                "paragraph": "Testes extensivos do bot foram realizados em um ambiente controlado, e a equipe foi treinada para colaborar eficientemente com a nova tecnologia."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Operação Atual",
+            "paragraph": "Com a implementação do RPA, o processo de gestão de mídias sociais na SocialGenius mudou radicalmente:",
+            "list": [
+              {
+                "subtitle": "Monitoramento Automatizado",
+                "paragraph": "O bot agora monitora todas as plataformas em tempo real, detectando interações relevantes instantaneamente."
+              },
+              {
+                "subtitle": "Respostas Imediatas",
+                "paragraph": "Para consultas frequentes, o bot envia respostas automáticas imediatas, mantendo uma interação fluida e rápida."
+              },
+              {
+                "subtitle": "Classificação Eficiente",
+                "paragraph": "O bot classifica as interações, identificando consultas, reclamações e comentários positivos, e redirecionando as interações complexas aos community managers adequados."
+              },
+              {
+                "subtitle": "Redução de Erros",
+                "paragraph": "A automação reduziu significativamente os erros e garantiu a consistência nas respostas."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Resultados",
+            "paragraph": "A implementação do RPA produziu resultados significativos:",
+            "list": [
+              {
+                "subtitle": "Tempo de Resposta",
+                "paragraph": "O tempo médio de resposta foi reduzido de várias horas para poucos minutos."
+              },
+              {
+                "subtitle": "Satisfação do Cliente",
+                "paragraph": "As pesquisas de satisfação mostraram um aumento de 40% na percepção positiva das marcas gerenciadas."
+              },
+              {
+                "subtitle": "Eficiência Operacional",
+                "paragraph": "Os community managers agora podem se concentrar em interações mais complexas e estratégicas, melhorando sua produtividade e criatividade."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusão",
+            "paragraph": "A implementação do RPA na gestão de mídias sociais da SocialGenius transformou suas operações, melhorando a eficiência e a consistência, e elevando significativamente a percepção das marcas que gerenciavam. Este caso demonstra como a tecnologia pode revolucionar a gestão de mídias sociais, proporcionando respostas rápidas e precisas, e permitindo que os profissionais se concentrem em tarefas de maior valor estratégico."
+          }
+        }
+      },
+
+      {
+        "id": 3,
+        "title": "Atendimento ao Cliente: A Transformação da TechSolutions",
+        "paragraph": "Empresa: TechSolutions, uma empresa de software que oferece suporte técnico aos seus clientes.",
+        "image": "/images/blog/blog-03.jpg",
+        "author": {
+          "name": "Samuyl Joshi",
+          "image": "/images/blog/author-01.svg",
+          "designation": "Designer Gráfico"
+        },
+        "tags": [
+          "RPA",
+          "Automação",
+          "Atendimento ao Cliente",
+          "Software"
+        ],
+        "publishDate": "2025",
+        "content": {
+          "paragraph": "Antes da automação, a TechSolutions enfrentava múltiplos desafios em seu departamento de atendimento ao cliente.",
+          "section1": {
+            "title": "Problemas Iniciais",
+            "paragraph": "A TechSolutions enfrentava múltiplos desafios em seu departamento de atendimento ao cliente:",
+            "list": [
+              {
+                "subtitle": "Alto Volume de Consultas",
+                "paragraph": "Recebiam uma média de 500 e-mails diários com consultas e problemas técnicos."
+              },
+              {
+                "subtitle": "Tempo de Resposta Lento",
+                "paragraph": "Os agentes de suporte levavam entre 24 a 48 horas para responder a cada e-mail, devido à necessidade de ler e categorizar manualmente cada consulta."
+              },
+              {
+                "subtitle": "Erros Humanos",
+                "paragraph": "A classificação manual dos e-mails frequentemente resultava em erros, o que fazia com que as consultas fossem direcionadas ao departamento errado."
+              },
+              {
+                "subtitle": "Insatisfação do Cliente",
+                "paragraph": "O tempo de espera e os erros no atendimento levavam a uma baixa satisfação do cliente."
+              }
+            ]
+          },
+          "section2": {
+            "title": "Decisão de Automação",
+            "paragraph": "Para melhorar sua eficiência e satisfação do cliente, a TechSolutions decidiu implementar uma solução de RPA. Após uma pesquisa exaustiva, selecionaram o software RPA da Blue Prism para automatizar a classificação e a resposta inicial dos e-mails.",
+            "list": [
+              {
+                "subtitle": "Análise de Processos",
+                "paragraph": "A TechSolutions realizou uma análise detalhada de seu processo atual de gestão de e-mails, identificando as etapas principais: recepção do e-mail, leitura, classificação conforme a consulta (técnica, comercial, administrativa), e resposta inicial."
+              },
+              {
+                "subtitle": "Desenvolvimento do Bot",
+                "paragraph": "Com a ajuda de consultores da Blue Prism, desenvolveram um bot RPA capaz de ler e analisar o conteúdo de cada e-mail, classificar o e-mail em uma das três categorias principais (técnica, comercial, administrativa), gerar uma resposta automática para consultas comuns e direcionar consultas complexas ao agente correspondente."
+              },
+              {
+                "subtitle": "Integração com o Sistema CRM",
+                "paragraph": "O bot foi integrado com seu sistema de CRM (Customer Relationship Management), permitindo a atualização automática de registros e o acompanhamento de cada caso."
+              },
+              {
+                "subtitle": "Testes e Treinamento",
+                "paragraph": "A TechSolutions realizou testes extensivos do bot em um ambiente controlado e treinou seu pessoal para trabalhar em conjunto com a nova tecnologia."
+              }
+            ]
+          },
+          "section3": {
+            "title": "Operação Atual",
+            "paragraph": "Com a implementação do RPA, o processo de atendimento ao cliente na TechSolutions mudou drasticamente:",
+            "list": [
+              {
+                "subtitle": "Automatização da Classificação",
+                "paragraph": "O bot agora recebe todos os e-mails, os lê e os classifica em tempo real. Isso reduziu o tempo de classificação de horas para segundos."
+              },
+              {
+                "subtitle": "Respostas Automáticas",
+                "paragraph": "Para consultas comuns, como redefinição de senhas ou informações sobre produtos, o bot envia respostas automáticas imediatas, reduzindo drasticamente o tempo de resposta."
+              },
+              {
+                "subtitle": "Redução de Erros",
+                "paragraph": "A classificação automática reduziu os erros de categorização em 95%, garantindo que as consultas complexas cheguem rapidamente ao agente adequado."
+              },
+              {
+                "subtitle": "Monitoramento e Melhoria Contínua",
+                "paragraph": "A equipe de TI monitora o desempenho do bot e faz ajustes periódicos para melhorar sua precisão e capacidade de resposta."
+              }
+            ]
+          },
+          "section4": {
+            "title": "Resultados",
+            "paragraph": "A implementação do RPA produziu resultados significativos:",
+            "list": [
+              {
+                "subtitle": "Tempo de Resposta",
+                "paragraph": "O tempo médio de resposta foi reduzido de 24-48 horas para menos de 1 hora."
+              },
+              {
+                "subtitle": "Satisfação do Cliente",
+                "paragraph": "As pesquisas de satisfação do cliente mostraram um aumento de 30% na satisfação geral."
+              },
+              {
+                "subtitle": "Eficiência Operacional",
+                "paragraph": "Os agentes de suporte agora podem se concentrar em problemas mais complexos, melhorando sua produtividade e moral."
+              }
+            ]
+          },
+          "section5": {
+            "title": "Conclusão",
+            "paragraph": "A implementação do RPA no departamento de atendimento ao cliente da TechSolutions transformou radicalmente suas operações. A automação não só melhorou a eficiência e a precisão, como também aumentou significativamente a satisfação do cliente, demonstrando como a tecnologia pode ser uma aliada poderosa na transformação empresarial."
+          }
+        }
+      }
+    ]
   },
   "chatbot": {
-    "systemMessage": "Introdução: Você é um chatbot inteligente que fala inglês projetado para ajudar os visitantes da DoubleClics, uma empresa que oferece serviços de automação...",
-    "welcomeMessage": "Olá! Eu sou o Assistente DoubleClics. Como posso ajudar você?",
-    "chatbotName": "Assistente DoubleClics",
+    "systemMessage": "Introdução: Você é um chatbot inteligente que fala inglês, projetado para ajudar os visitantes da DoubleClics, uma empresa que oferece serviços de automação...",
+    "welcomeMessage": "Olá! Sou o Assistente da DoubleClics. Como posso ajudar você?",
+    "chatbotName": "Assistente da DoubleClics",
     "placeholder": "Digite sua mensagem aqui..."
   },
   "common": {
@@ -41,37 +379,38 @@
       "Home": "Início",
       "Pricing Page": "Preços",
       "Contact Page": "Contato",
-      "About Page": "Sobre"
+      "About Page": "Sobre",
+      "Blog Page": "Blog"
     }
   },
   "contact": {
     "name": "Nome",
-    "email": "E-mail",
-    "title": "Vamos conversar",
-    "paragraph": "Nossa equipe responderá instantaneamente para resolver qualquer uma de suas perguntas.",
+    "email": "Email",
+    "title": "Vamos Conversar",
+    "paragraph": "Nossa equipe responderá instantaneamente para atender a qualquer uma de suas perguntas.",
     "nameLabel": "Seu Nome",
-    "emailLabel": "Seu E-mail",
+    "emailLabel": "Seu Email",
     "messageLabel": "Sua Mensagem",
     "sendButton": "Enviar",
     "namePlaceholder": "Digite seu nome",
-    "emailPlaceholder": "Digite seu e-mail",
+    "emailPlaceholder": "Digite seu email",
     "messagePlaceholder": "Digite sua mensagem"
   },
   "features": {
-    "title": "Quais tipos de processos podem ser automatizados?",
-    "paragraph": "Aqui estão algumas das áreas onde nossos serviços de automação podem fazer a diferença.",
+    "title": "Que tipos de processos podem ser automatizados?",
+    "paragraph": "Aqui estão algumas áreas onde nossos serviços de automação podem fazer a diferença.",
     "featuresData": [
       {
-        "title": "Redes Sociais",
-        "paragraph": "Aumente sua presença nas redes sociais com bots que interagem, geram curtidas, compartilham conteúdo e muito mais. Automatize suas campanhas e mantenha-se presente na mente de seus clientes sem esforço adicional."
+        "title": "Mídias Sociais",
+        "paragraph": "Aumente sua presença nas mídias sociais com bots que interagem, geram curtidas, compartilham conteúdo e muito mais. Automatize suas campanhas e mantenha-se presente na mente de seus clientes sem esforço adicional."
       },
       {
-        "title": "Teste de Vulnerabilidade",
+        "title": "Testes de Vulnerabilidade",
         "paragraph": "Garanta que seus sistemas sejam seguros e confiáveis com bots que podem detectar vulnerabilidades e testar a segurança de suas aplicações."
       },
       {
-        "title": "Centrais de Atendimento",
-        "paragraph": "Otimize sua central de atendimento com bots que podem responder a consultas básicas, encaminhar chamadas e coletar informações, reduzindo a carga de trabalho em sua equipe humana e melhorando a eficiência."
+        "title": "Centros de Chamadas",
+        "paragraph": "Otimize seu call center com bots que podem responder a consultas básicas, direcionar chamadas e coletar informações, reduzindo a carga de trabalho em sua equipe humana e melhorando a eficiência."
       },
       {
         "title": "Vendas e Marketing",
@@ -91,7 +430,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
     "sections" : [
       "Links úteis",
-      "Termos Legais",
+      "Termos e condições",
       "Suporte"
     ],
     "usefulLinks": [
@@ -117,8 +456,8 @@
     "pricing": "Preços"
   },
   "hero": {
-    "title": "Reduza custos e melhore a confiabilidade com a automação de operações de TI.",
-    "subtitle": "A tecnologia avança a passos largos e, no mundo dos negócios, a adaptação é fundamental para sobreviver e prosperar. Com nossas soluções de automação, fornecemos as ferramentas necessárias para manter sua empresa competitiva e em constante crescimento.",
+    "title": "Reduza custos e melhore a confiabilidade com a automação das operações de TI.",
+    "subtitle": "A tecnologia avança em um ritmo acelerado e, no mundo dos negócios, adaptar-se é a chave para sobreviver e prosperar. Com nossas soluções de automação, fornecemos as ferramentas necessárias para manter sua empresa competitiva e em constante crescimento.",
     "main-button": "Preços",
     "secondary-button": "Descubra as possibilidades"
   },
@@ -137,7 +476,7 @@
         "features": [
           "5 bots",
           "Suporte básico",
-          "Customização limitada"
+          "Personalização limitada"
         ],
         "button": "Escolher Básico"
       },
@@ -148,7 +487,7 @@
         "features": [
           "10 bots",
           "Suporte prioritário",
-          "Customização"
+          "Personalização"
         ],
         "button": "Escolher Pro"
       },
@@ -159,7 +498,7 @@
         "features": [
           "Bots ilimitados",
           "Suporte 24/7",
-          "Customização completa"
+          "Personalização completa"
         ],
         "button": "Escolher Empresa"
       }
@@ -167,33 +506,33 @@
   },
   "testimonial": {
     "title": "O que nossos clientes dizem",
-    "paragraph": "Nossos clientes são nossos maiores apoiadores. Desde 2007, ajudamos mais de 10.000 clientes a automatizar seus processos. Nossos clientes são nossos maiores apoiadores. Desde 2007, ajudamos mais de 10.000 clientes a automatizar seus processos.",
+    "paragraph": "Nossos clientes são nossos maiores defensores. Desde 2007, ajudamos mais de 10.000 clientes a automatizar seus processos. Nossos clientes são nossos maiores defensores. Desde 2007, ajudamos mais de 10.000 clientes a automatizar seus processos.",
     "testimonials": [
       {
         "id": 1,
         "name": "Musharof Chy",
         "designation": "Fundador @TailGrids",
-        "content": "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
+        "content": "Nossos membros estão muito impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
         "star": 5
       },
       {
         "id": 2,
         "name": "Devid Weilium",
         "designation": "Fundador @UIdeck",
-        "content": "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
+        "content": "Nossos membros estão muito impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
         "star": 5
       },
       {
         "id": 3,
         "name": "Lethium Frenci",
         "designation": "Fundador @Lineicons",
-        "content": "Nossos membros estão tão impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
+        "content": "Nossos membros estão muito impressionados. É intuitivo. É limpo. É livre de distrações. Se você está construindo uma comunidade.",
         "star": 5
       }
     ]
   },
   "video": {
     "title": "Como um processo é automatizado?",
-    "paragraph": "Nossa equipe é composta por especialistas em automação, desenvolvimento de software e estratégia empresarial, todos com um objetivo comum: tornar a tecnologia uma aliada para nossos clientes."
+    "paragraph": "Nossa equipe é composta por especialistas em automação, desenvolvimento de software e estratégia empresarial, todos com um objetivo comum: fazer da tecnologia uma aliada para nossos clientes."
   }
 }

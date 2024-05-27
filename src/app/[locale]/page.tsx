@@ -25,6 +25,7 @@ export default function Home() {
       <Features />
       <Video />
       <Testimonials />
+      <Blog />
       <Contact />
     </>
   );

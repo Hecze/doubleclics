@@ -4,6 +4,12 @@ type Author = {
   designation: string;
 };
 
+type BlogContent = {
+  title: string;
+  paragraph: string;
+  list: any;
+}
+
 export type Blog = {
   id: number;
   title: string;
@@ -12,4 +18,5 @@ export type Blog = {
   author: Author;
   tags: string[];
   publishDate: string;
+  path: string;
 };

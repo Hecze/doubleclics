@@ -1,16 +1,59 @@
+"use client"
 import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Blog Page | DoubleClics",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
-};
+import { image } from "@nextui-org/theme";
+import { useTranslations } from "next-intl";
 
 const Blog = () => {
+  const t = useTranslations('blog');
+  const currentPath = window.location.pathname;
+
+  const blogData = [
+    {
+      id: 1,
+      title: t('blogs.0.title'),
+      paragraph: t('blogs.0.paragraph'),
+      image: t('blogs.0.image'),
+      author: {
+        name: t('blogs.0.author.name'),
+        image: t('blogs.0.author.image'),
+        designation: t('blogs.0.author.designation'),
+      },
+      tags: [],
+      publishDate: t('blogs.0.publishDate'),
+      path: currentPath + '/blog-details1'
+      
+    },
+    {
+      id: 1,
+      title: t('blogs.1.title'),
+      paragraph: t('blogs.1.paragraph'),
+      image: t('blogs.1.image'),
+      author: {
+        name: t('blogs.1.author.name'),
+        image: t('blogs.1.author.image'),
+        designation: t('blogs.1.author.designation'),
+      },
+      tags: [],
+      publishDate: t('blogs.1.publishDate'),
+      path: currentPath + '/blog-details2'
+    },
+    {
+      id: 3,
+      title: t('blogs.2.title'),
+      paragraph: t('blogs.2.paragraph'),
+      image: t('blogs.2.image'),
+      author: {
+        name: t('blogs.2.author.name'),
+        image: t('blogs.2.author.image'),
+        designation: t('blogs.2.author.designation'),
+      },
+      tags: [],
+      publishDate: t('blogs.2.publishDate'),
+      path: currentPath + '/blog-details3'
+    },
+  ]
+
   return (
     <>
       <Breadcrumb
