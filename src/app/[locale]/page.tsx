@@ -16,6 +16,11 @@ import { Metadata } from "next";
 import ChatBot from "@/components/Chatbot";
 import {useTranslations} from 'next-intl';
 
+export const metadata: Metadata = {
+  title: "DoubleClics",
+  description: "Software Automation, Web Development | DoubleClics",
+};
+
 export default function Home() {
   return (
     <>

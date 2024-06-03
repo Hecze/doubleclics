@@ -2,6 +2,13 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Loading from '@/components/Loading';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Contact | DoubleClics",
+  description: "Software Automation, Web Development | DoubleClics",
+  // other metadata
+};
 
 export default function RootPage() {
   const router = useRouter();
