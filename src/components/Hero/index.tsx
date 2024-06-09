@@ -4,6 +4,7 @@ import Link from "next/link";
 import Button from "../button";
 import { Fascinate } from "next/font/google";
 import FadeInSection from "../FadeInSection";
+import Image from 'next/image';
 import LocalSwitcher from '../local-switcher';
 
 const Hero = () => {
@@ -12,11 +13,11 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="bg-white dark:bg-gradient-to-tr from-[#01095e] to-[#090a20] relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap ">
-          <FadeInSection animationClass="animate-fade-in-up-20 pl-4 w-1/2 min-w-[350px] mx-auto"  threshold={0.25}>
+          <FadeInSection animationClass="animate-fade-in-up-20  pl-4 w-1/2 min-w-[350px] mx-auto z-10"  threshold={0.25}>
               <div className="mx-auto max-w-[600px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                 {t('title')}
@@ -33,14 +34,27 @@ const Hero = () => {
                   </Button>
                 </div>
             </div>
-            </FadeInSection>
-            <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto"  threshold={0.25}>
-              <img
-                src="/images/hero/automation.svg"
+          </FadeInSection>
+          
+          <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto mt-24 lg:mt-0"  threshold={0.25}>
+              <Image
+                src="/images/hero/robot.svg"
                 alt="Hero"
-                className="mx-auto mt-10 w-full max-w-[750px] sm:mt-0"
+                width={750}
+                height={750}
+                className="mx-auto  w-full max-w-[950px] sm:mt-0"
               />
-            </FadeInSection>
+          </FadeInSection>
+
+            <div className="absolute h-screen screen right-0 top-0 z-0">
+            <Image
+                src="/images/hero/items.svg"
+                alt="Hero"
+                width={750}
+                height={750}
+                className="mx-auto  w-full sm:mt-0"
+              />
+            </div>
 
           </div>
         </div>
