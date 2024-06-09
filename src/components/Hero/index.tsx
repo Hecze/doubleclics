@@ -1,5 +1,5 @@
 
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Link from "next/link";
 import Button from "../button";
 import { Fascinate } from "next/font/google";
@@ -17,26 +17,26 @@ const Hero = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap ">
-          <FadeInSection animationClass="animate-fade-in-up-20  pl-4 w-1/2 min-w-[350px] mx-auto z-10"  threshold={0.25}>
+            <FadeInSection animationClass="animate-fade-in-up-20  pl-4 w-1/2 min-w-[350px] mx-auto z-10" threshold={0.25}>
               <div className="mx-auto max-w-[600px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                {t('title')}
+                  {t('title')}
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                {t('subtitle')}
+                  {t('subtitle')}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Button path="/pricing">
-                  🔥 {t('main-button')}
+                    🔥 {t('main-button')}
                   </Button>
                   <Button path="#features" hover={false} color="bg-slate-900">
-                  {t('secondary-button')}
+                    {t('secondary-button')}
                   </Button>
                 </div>
-            </div>
-          </FadeInSection>
-          
-          <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto mt-24 lg:mt-0 "  threshold={0.25}>
+              </div>
+            </FadeInSection>
+
+            <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto mt-24 lg:mt-0 " threshold={0.25}>
               <Image
                 src="/images/hero/robot.webp"
                 alt="Hero"
@@ -44,18 +44,15 @@ const Hero = () => {
                 height={750}
                 className="w-full  max-w-[950px] mt-[-2.5vw] "
               />
-          </FadeInSection>
-
-            <div className="absolute h-screen w-screen right-0 top-0 z-0 ">
-            <Image
-                src="/images/hero/items.webp"
-                alt="Hero"
-                width={750}
-                height={750}
-                className="w-full "
-              />
-            </div>
-
+            </FadeInSection>
+            <div className="absolute h-screen w-screen z-0 top-10 animate-fade-in-down-10 ">
+                <Image
+                  src="/images/hero/items.webp"
+                  alt="Hero"
+                  fill
+                  className=" object-contain object-center"
+                />
+              </div>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
