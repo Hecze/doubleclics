@@ -153,7 +153,7 @@
         "paragraph": "The transformation of social media management through RPA in a digital marketing agency.",
         "image": "/images/blog/blog-02.jpg",
         "author": {
-          "name": "Samuyl Joshi",
+          "name": "Rembrant Ubalde",
           "image": "/images/blog/author-01.svg",
           "designation": "Graphic Designer"
         },
@@ -263,7 +263,7 @@
         "paragraph": "Company: TechSolutions, a software company that offers technical support to its customers.",
         "image": "/images/blog/blog-03.jpg",
         "author": {
-          "name": "Samuyl Joshi",
+          "name": "Hector Zerrillo",
           "image": "/images/blog/author-01.svg",
           "designation": "Graphic Designer"
         },
@@ -427,7 +427,7 @@
     ]
   },
   "footer": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "description": "DoubleClics is a company that specializes in automation solutions for businesses. Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients.",
     "sections" : [
       "Useful links",
       "Terms and conditions",

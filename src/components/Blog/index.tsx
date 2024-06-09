@@ -4,8 +4,10 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { image } from "@nextui-org/theme";
 import { useTranslations } from "next-intl";
 
+
 const Blog = () => {
   const t = useTranslations('blog');
+
   const currentPath = window.location.pathname;
 
   const blogData = [
@@ -16,7 +18,7 @@ const Blog = () => {
       image: t('blogs.0.image'),
       author: {
         name: t('blogs.0.author.name'),
-        image: t('blogs.0.author.image'),
+        image: "/images/blog/author-01.png",
         designation: t('blogs.0.author.designation'),
       },
       tags: [],
@@ -31,7 +33,7 @@ const Blog = () => {
       image: t('blogs.1.image'),
       author: {
         name: t('blogs.1.author.name'),
-        image: t('blogs.1.author.image'),
+        image: "/images/blog/author-02.png",
         designation: t('blogs.1.author.designation'),
       },
       tags: [],
@@ -45,7 +47,7 @@ const Blog = () => {
       image: t('blogs.2.image'),
       author: {
         name: t('blogs.2.author.name'),
-        image: t('blogs.2.author.image'),
+        image: "/images/blog/author-03.png",
         designation: t('blogs.2.author.designation'),
       },
       tags: [],

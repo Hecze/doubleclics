@@ -153,7 +153,7 @@
         "paragraph": "La transformación de la gestión de redes sociales mediante RPA en una agencia de marketing digital.",
         "image": "/images/blog/blog-02.jpg",
         "author": {
-          "name": "Samuyl Joshi",
+          "name": "Rembrant Ubalde",
           "image": "/images/blog/author-01.svg",
           "designation": "Graphic Designer"
         },
@@ -263,7 +263,7 @@
         "paragraph": "Empresa: TechSolutions, una empresa de software que ofrece soporte técnico a sus clientes.",
         "image": "/images/blog/blog-03.jpg",
         "author": {
-          "name": "Samuyl Joshi",
+          "name": "Hector Zerrillo",
           "image": "/images/blog/author-01.svg",
           "designation": "Graphic Designer"
         },
@@ -430,7 +430,7 @@
     ]
   },
   "footer": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "description": "Marca registrada © 2025 DoubleClics. Todos los derechos reservados.",
     "sections" : [
       "Enlaces útiles",
       "Terminos y condiciones",

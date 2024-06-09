@@ -153,7 +153,7 @@
         "paragraph": "通过RPA在数字营销机构中转变社交媒体管理。",
         "image": "/images/blog/blog-02.jpg",
         "author": {
-          "name": "Samuyl Joshi",
+          "name": "Rembrant Ubalde",
           "image": "/images/blog/author-01.svg",
           "designation": "平面设计师"
         },
@@ -263,7 +263,7 @@
         "paragraph": "公司：TechSolutions，一家提供技术支持的的软件公司。",
         "image": "/images/blog/blog-03.jpg",
         "author": {
-          "name": "Samuyl Joshi",
+          "name": "Hector Zerrillo",
           "image": "/images/blog/author-01.svg",
           "designation": "平面设计师"
         },
@@ -427,7 +427,7 @@
     ]
   },
   "footer": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.",
+    "description": "我们的团队由自动化、软件开发和商业战略专家组成，所有人都有一个共同的目标：使技术成为客户的盟友。",
     "sections" : [
       "有用的链接",
       "条款和条件",

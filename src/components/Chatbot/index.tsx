@@ -53,16 +53,16 @@ const ChatBot: React.FC = () => {
     if (input.trim() === '' || isSending) return;
     setMessages([...messages, { role: 'user', content: input }]);
     setInput('');
-
+  
     setIsSending(true);
-
+  
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
-
+  
     const apiRequestBody = {
       model: 'gpt-3.5-turbo',
       messages: [systemMessage, ...messages, { role: 'user', content: input }],
     };
-
+  
     try {
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -72,20 +72,26 @@ const ChatBot: React.FC = () => {
         },
         body: JSON.stringify(apiRequestBody),
       });
-
+  
+      if (!response.ok) {
+        const errorDetails = await response.text();
+        throw new Error(`API error: ${response.status} ${response.statusText} - ${errorDetails}`);
+      }
+  
       const data = await response.json();
-
+  
       setMessages([
         ...messages,
         { role: 'user', content: input },
         { role: 'assistant', content: data.choices[0].message.content },
       ]);
     } catch (error) {
-      console.error('Error:', error);
+      console.error('Error al conectar con la API:', error);
     } finally {
       setIsSending(false);
     }
   };
+  
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
