@@ -36,23 +36,23 @@ const Hero = () => {
             </div>
           </FadeInSection>
           
-          <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto mt-24 lg:mt-0"  threshold={0.25}>
+          <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto mt-24 lg:mt-0 "  threshold={0.25}>
               <Image
-                src="/images/hero/robot.svg"
+                src="/images/hero/robot.webp"
                 alt="Hero"
                 width={750}
                 height={750}
-                className="mx-auto  w-full max-w-[950px] sm:mt-0"
+                className="w-full  max-w-[950px] mt-[-2.5vw] "
               />
           </FadeInSection>
 
-            <div className="absolute h-screen screen right-0 top-0 z-0">
+            <div className="absolute h-screen w-screen right-0 top-0 z-0 ">
             <Image
-                src="/images/hero/items.svg"
+                src="/images/hero/items.webp"
                 alt="Hero"
                 width={750}
                 height={750}
-                className="mx-auto  w-full sm:mt-0"
+                className="w-full "
               />
             </div>
 
