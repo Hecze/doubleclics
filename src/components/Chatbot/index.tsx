@@ -99,9 +99,9 @@ const ChatBot: React.FC = () => {
     }
   };
 
-  const content = (<div className="bg-white shadow-lg rounded-lg w-80 mt-2 relative animate-growing">
-  <div className="text-lg font-semibold text-black p-4 bg-blue-300 rounded-t-lg flex justify-between items-center">
-    <div className="flex items-center gap-2">
+  const content = (<div className="bg-purple-100 backdrop-blur-xl bg-current bg-opacity-30 opacity-95 shadow-lg rounded-lg w-80 mt-2 relative animate-growing">
+  <div className="text-lg font-semibold bg-primary text-black p-4  rounded-t-lg flex justify-between items-center">
+    <div className="flex items-center gap-2 text-white semibold">
       <MdOutlineSupportAgent size={30} /> {t('chatbotName')}
     </div>
     <button onClick={toggleChat} className="text-blue-900 transition duration-150  hover:text-red-800">
@@ -115,7 +115,7 @@ const ChatBot: React.FC = () => {
         <div
           key={index}
           className={`p-2 rounded-md text-sm text-white ${
-            message.role === 'user' ? 'bg-primary self-end px-4 ml-4' : 'bg-amber-500 self-start px-4 mr-4'
+            message.role === 'user' ? 'bg-primary self-end px-4 ml-4' : 'bg-amber-500 bg-opacity-90 self-start px-4 mr-4'
           }`}
         >
           {message.content}
