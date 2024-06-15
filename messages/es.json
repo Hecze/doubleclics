@@ -467,6 +467,8 @@
   "pricing": {
     "title": "Precios",
     "subtitle": "Elige el plan que mejor se adapte a tus necesidades.",
+    "currency": "S/",
+
     "time": {
       "monthly": "Mensual",
       "yearly": "Anual"
@@ -474,7 +476,6 @@
     "plans": [
       {
         "title": "Básico",
-        "price": "$9.99",
         "description": "Para pequeñas empresas que necesitan automatizar procesos básicos.",
         "features": [
           "5 bots",
@@ -485,7 +486,6 @@
       },
       {
         "title": "Pro",
-        "price": "$19.99",
         "description": "Para empresas de tamaño mediano que necesitan automatizar procesos más complejos.",
         "features": [
           "10 bots",
@@ -496,7 +496,6 @@
       },
       {
         "title": "Empresa",
-        "price": "$29.99",
         "description": "Para grandes empresas que necesitan automatizar múltiples procesos.",
         "features": [
           "Bots ilimitados",

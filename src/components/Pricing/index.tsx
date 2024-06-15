@@ -65,7 +65,8 @@ const Pricing = () => {
             packageName={t("plans.0.title")}
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            currency={t("currency")}
+            subtitle={t("plans.0.description")}
           >
             <OfferList text={t("plans.0.features.0")} status="active" />
             <OfferList text={t("plans.0.features.1")} status="active" />
@@ -75,7 +76,8 @@ const Pricing = () => {
             packageName={t("plans.1.title")}
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            currency={t("currency")}
+            subtitle={t("plans.1.description")}
           >
             <OfferList text={t("plans.1.features.0")} status="active" />
             <OfferList text={t("plans.1.features.1")} status="active" />
@@ -85,7 +87,8 @@ const Pricing = () => {
             packageName={t("plans.2.title")}
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            currency={t("currency")}
+            subtitle={t("plans.2.description")}
           >
             <OfferList text={t("plans.2.features.0")} status="active" />
             <OfferList text={t("plans.2.features.1")} status="active" />

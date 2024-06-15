@@ -464,6 +464,7 @@
   "pricing": {
     "title": "价格",
     "subtitle": "选择最适合您需求的计划。",
+    "currency": "¥",
     "time": {
       "monthly": "每月",
       "yearly": "每年"
@@ -471,7 +472,6 @@
     "plans": [
       {
         "title": "基础",
-        "price": "$9.99",
         "description": "适合需要自动化基本流程的小型企业。",
         "features": [
           "5个机器人",
@@ -482,7 +482,6 @@
       },
       {
         "title": "专业",
-        "price": "$19.99",
         "description": "适合需要自动化更复杂流程的中型企业。",
         "features": [
           "10个机器人",
@@ -493,7 +492,6 @@
       },
       {
         "title": "企业",
-        "price": "$29.99",
         "description": "适合需要自动化多个流程的大型企业。",
         "features": [
           "无限机器人",
