@@ -397,32 +397,32 @@
     "messagePlaceholder": "Digite sua mensagem"
   },
   "features": {
-    "title": "Que tipos de processos podem ser automatizados?",
+    "title": "Quais tipos de processos podem ser automatizados?",
     "paragraph": "Aqui estão algumas áreas onde nossos serviços de automação podem fazer a diferença.",
     "featuresData": [
       {
-        "title": "Mídias Sociais",
-        "paragraph": "Aumente sua presença nas mídias sociais com bots que interagem, geram curtidas, compartilham conteúdo e muito mais. Automatize suas campanhas e mantenha-se presente na mente de seus clientes sem esforço adicional."
+        "title": "Imóveis",
+        "paragraph": "Automatize todos os processos relacionados à compra, venda e aluguel de imóveis. Desde a gestão de propriedades até a interação com clientes potenciais, nossos bots simplificam cada etapa do processo."
       },
       {
-        "title": "Testes de Vulnerabilidade",
-        "paragraph": "Garanta que seus sistemas sejam seguros e confiáveis com bots que podem detectar vulnerabilidades e testar a segurança de suas aplicações."
+        "title": "Mineração",
+        "paragraph": "Otimize todos os processos de mineração relacionados à extração e gestão de ouro, prata e lítio. Nossos bots podem lidar com tarefas repetitivas e análise de dados, melhorando a eficiência e reduzindo o risco de erros."
       },
       {
-        "title": "Centros de Chamadas",
-        "paragraph": "Otimize seu call center com bots que podem responder a consultas básicas, direcionar chamadas e coletar informações, reduzindo a carga de trabalho em sua equipe humana e melhorando a eficiência."
+        "title": "Mercado de Ações",
+        "paragraph": "Gerencie seus investimentos no mercado de ações com bots projetados para automatizar operações de negociação, monitorar o mercado e gerar relatórios detalhados."
       },
       {
-        "title": "Vendas e Marketing",
-        "paragraph": "Otimize sua força de vendas com bots que podem gerenciar contatos, enviar e-mails e realizar acompanhamentos automatizados."
+        "title": "Contabilidade e SUNAT",
+        "paragraph": "Simplifique todos os seus processos contábeis e fiscais com bots que podem lidar com registros contábeis, apresentar declarações à SUNAT e realizar outras tarefas administrativas, garantindo conformidade e precisão."
       },
       {
-        "title": "Análise de Dados e Relatórios",
-        "paragraph": "Obtenha relatórios precisos e rápidos. Com nossos bots, você pode obter insights importantes para a tomada de decisões sem horas de trabalho manual."
+        "title": "Atendimento ao Cliente",
+        "paragraph": "Melhore seu atendimento ao cliente com bots que podem responder a consultas, fornecer informações e resolver problemas básicos, permitindo que sua equipe humana se concentre em tarefas mais complexas."
       },
       {
         "title": "Bots Personalizados",
-        "paragraph": "Automatize qualquer tarefa repetitiva. Trabalharemos com você para criar um bot personalizado que atenda às suas necessidades."
+        "paragraph": "Automatize qualquer tarefa repetitiva. Trabalharemos com você para criar um bot personalizado que atenda às suas necessidades específicas, melhorando a eficiência e reduzindo a carga de trabalho manual."
       }
     ]
   },

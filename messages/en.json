@@ -396,36 +396,37 @@
     "emailPlaceholder": "Enter your email",
     "messagePlaceholder": "Enter your message"
   },
-  "features": {
-    "title": "What types of processes can be automated?",
-    "paragraph": "Here are some areas where our automation services can make a difference.",
-    "featuresData": [
-      {
-        "title": "Social Media",
-        "paragraph": "Increase your social media presence with bots that interact, generate likes, share content, and more. Automate your campaigns and stay on top of your customers' minds effortlessly."
-      },
-      {
-        "title": "Vulnerability Testing",
-        "paragraph": "Ensure your systems are secure and reliable with bots that can detect vulnerabilities and test the security of your applications."
-      },
-      {
-        "title": "Call Centers",
-        "paragraph": "Optimize your call center with bots that can answer basic queries, direct calls, and collect information, reducing the workload on your human team and improving efficiency."
-      },
-      {
-        "title": "Sales and Marketing",
-        "paragraph": "Optimize your sales force with bots that can manage contacts, send emails, and perform automated follow-ups."
-      },
-      {
-        "title": "Data Analysis and Reporting",
-        "paragraph": "Get accurate and fast reports. With our bots, you can gain key insights for decision-making without hours of manual work."
-      },
-      {
-        "title": "Custom Bots",
-        "paragraph": "Automate any repetitive task. We will work with you to create a custom bot that fits your needs."
-      }
-    ]
-  },
+  
+    "features": {
+      "title": "What types of processes can be automated?",
+      "paragraph": "Here are some areas where our automation services can make a difference.",
+      "featuresData": [
+        {
+          "title": "Real Estate",
+          "paragraph": "Automate all processes related to the buying, selling, and renting of real estate. From property management to interacting with potential clients, our bots streamline every step of the process."
+        },
+        {
+          "title": "Mining",
+          "paragraph": "Optimize all mining processes related to the extraction and management of gold, silver, and lithium. Our bots can handle repetitive tasks and data analysis, improving efficiency and reducing the risk of errors."
+        },
+        {
+          "title": "Stock Market",
+          "paragraph": "Manage your stock market investments with bots designed to automate trading operations, monitor the market, and generate detailed reports."
+        },
+        {
+          "title": "Accounting and SUNAT",
+          "paragraph": "Simplify all your accounting and tax processes with bots that can handle accounting records, file declarations with SUNAT, and perform other administrative tasks, ensuring compliance and accuracy."
+        },
+        {
+          "title": "Customer Service",
+          "paragraph": "Enhance your customer service with bots that can respond to inquiries, provide information, and resolve basic issues, allowing your human team to focus on more complex tasks."
+        },
+        {
+          "title": "Custom Bots",
+          "paragraph": "Automate any repetitive task. We will work with you to create a custom bot that suits your specific needs, improving efficiency and reducing manual workload."
+        }
+      ]
+    },
   "footer": {
     "description": "DoubleClics is a company that specializes in automation solutions for businesses. Our team consists of experts in automation, software development, and business strategy, all with a common goal: to make technology an ally for our clients.",
     "sections" : [
