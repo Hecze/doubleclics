@@ -100,11 +100,11 @@ const ChatBot: React.FC = () => {
   };
 
   const content = (<div className="bg-purple-100 backdrop-blur-xl bg-current bg-opacity-30 opacity-95 shadow-lg rounded-lg w-80 mt-2 relative animate-growing">
-  <div className="text-lg font-semibold bg-primary text-black p-4  rounded-t-lg flex justify-between items-center">
+  <div className="text-lg font-semibold bg-primary text-black p-4 rounded-t-lg flex justify-between items-center">
     <div className="flex items-center gap-2 text-white semibold">
       <MdOutlineSupportAgent size={30} /> {t('chatbotName')}
     </div>
-    <button onClick={toggleChat} className="text-blue-900 transition duration-150  hover:text-red-800">
+    <button onClick={toggleChat} className="text-blue-100 transition duration-150  hover:text-red-800 ">
       <MdClose size={20} />
     </button>
   </div>
@@ -144,7 +144,7 @@ const ChatBot: React.FC = () => {
   );
 
   return (
-    <div className="fixed bottom-6 right-6 z-20 flex-col justify-end justify-items-end justify-self-end">
+    <div className="fixed bottom-6 right-6  z-20 flex-col justify-end justify-items-end justify-self-end">
       {/* Ocultar el botón de abrir chat si el chat está abierto */}
       {isOpen && (content)}
 

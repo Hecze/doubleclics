@@ -16,7 +16,7 @@ const Hero = () => {
         className="bg-white dark:bg-gradient-to-tr from-[#01095e] to-[#090a20] relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap ">
+          <div className="flex">
             <FadeInSection animationClass="animate-fade-in-up-20  pl-4 w-1/2 min-w-[350px] mx-auto z-10" threshold={0.25}>
               <div className="mx-auto max-w-[600px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
@@ -25,7 +25,18 @@ const Hero = () => {
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   {t('subtitle')}
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+
+                <FadeInSection animationClass="animate-fade-in-down-20  min-w-[350px] mx-auto my-8  lg:hidden" threshold={0.25}>
+                  <Image
+                    src="/images/hero/robot.webp"
+                    alt="Hero"
+                    width={750}
+                    height={750}
+                    className="w-full  max-w-[950px] mt-[-2.5vw] "
+                  />
+                </FadeInSection>
+                
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 ">
                   <Button path="/pricing">
                     🔥 {t('main-button')}
                   </Button>
@@ -36,7 +47,7 @@ const Hero = () => {
               </div>
             </FadeInSection>
 
-            <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] mx-auto mt-24 lg:mt-0 " threshold={0.25}>
+            <FadeInSection animationClass="animate-fade-in-down-20 w-1/2 min-w-[350px] hidden lg:block z-10" threshold={0.25}>
               <Image
                 src="/images/hero/robot.webp"
                 alt="Hero"
@@ -46,13 +57,13 @@ const Hero = () => {
               />
             </FadeInSection>
             <div className="absolute h-screen w-screen z-0 top-10 animate-fade-in-down-10 ">
-                <Image
-                  src="/images/hero/items.webp"
-                  alt="Hero"
-                  fill
-                  className=" object-contain object-center"
-                />
-              </div>
+              <Image
+                src="/images/hero/items.webp"
+                alt="Hero"
+                fill
+                className=" object-contain object-center"
+              />
+            </div>
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
