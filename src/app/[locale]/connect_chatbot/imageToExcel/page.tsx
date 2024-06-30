@@ -22,7 +22,11 @@ export default function Home() {
           Escanea este qr desde whatsapp para activar el chatbot en tu número
         </h1>
         {imageError ? (
-          <p className="text-red-500">Chatbot caído, por favor comunicarse con los desarrolladores.</p>
+          <>
+            <p className="text-red-500">Chatbot caído, por favor comunicarse con los desarrolladores o probar el</p>
+            <a href="http://3.128.94.171:4500/" className='underline text-blue-500 hover:text-blue-800 duration-300'>link alternativo</a>
+          </>
+
         ) : (
           <Image
             src={`http://3.128.94.171:4500/?t=${timestamp}`}
