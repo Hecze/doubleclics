@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -26,9 +25,8 @@ export default function Home() {
             <p className="text-red-500">Chatbot caído, por favor comunicarse con los desarrolladores o probar el</p>
             <a href="http://3.128.94.171:4500/" className='underline text-blue-500 hover:text-blue-800 duration-300'>link alternativo</a>
           </>
-
         ) : (
-          <Image
+          <img
             src={`http://3.128.94.171:4500/?t=${timestamp}`}
             alt="Imagen en tiempo real"
             width={500} // Ajusta el ancho según tus necesidades
