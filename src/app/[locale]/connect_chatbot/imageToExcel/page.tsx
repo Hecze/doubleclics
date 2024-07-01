@@ -27,7 +27,7 @@ export default function Home() {
           </>
         ) : (
           <img
-            src={`http://3.128.94.171:4500/?t=${timestamp}`}
+            src={`https://n9.cl/doubleclics/?t=${timestamp}`}
             alt="Imagen en tiempo real"
             width={500} // Ajusta el ancho según tus necesidades
             height={500} // Ajusta la altura según tus necesidades

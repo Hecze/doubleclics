@@ -13,7 +13,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    domains: ['3.128.94.171'],
+    domains: ['3.128.94.171', "https://n9.cl"],
   },
 };
 
