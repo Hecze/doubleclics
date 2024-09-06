@@ -144,11 +144,11 @@ const Pricing = () => {
             onChange={(e) => setCurrency(e.target.value)}
             className=" p-2 mx-6 border rounded-md"
           >
-            <option value="PEN">Sol Peruano (S/)</option>
-            <option value="BRL">Real Brasileño (R$)</option>
-            <option value="USD">Dólar Estadounidense ($)</option>
-            <option value="CNY">Yuan Chino (¥)</option>
-            <option value="BTC">Bitcoin (₿)</option>
+            <option value="PEN">PEN (S/)</option>
+            <option value="BRL">BRL (R$)</option>
+            <option value="USD">USD ($)</option>
+            <option value="CNY">CNY (¥)</option>
+            <option value="BTC">BTC (₿)</option>
           </select>
         </div>
 
