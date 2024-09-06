@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import './globals.css';
 import { Providers } from './providers';
+import ChatBot from '@/components/Chatbot';
 
 export default async function LocaleLayout({
   children,
@@ -23,6 +24,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
         <Header locale={locale} />
           {children}
+          <ChatBot />
           <Footer />
         </NextIntlClientProvider>
         </Providers>

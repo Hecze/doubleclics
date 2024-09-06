@@ -25,7 +25,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <ChatBot />
       <Brands />
       <Features />
       <Video />
