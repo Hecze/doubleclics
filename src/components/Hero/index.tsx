@@ -35,7 +35,7 @@ const Hero = () => {
                     className="w-full  max-w-[950px] mt-[-2.5vw] "
                   />
                 </FadeInSection>
-                
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 ">
                   <Button path="/pricing">
                     🔥 {t('main-button')}

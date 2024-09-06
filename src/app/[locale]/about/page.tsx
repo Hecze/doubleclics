@@ -17,7 +17,6 @@ const AboutPage = () => {
         pageName="About Page"
       />
       <AboutSectionOne />
-      <AboutSectionTwo />
     </>
   );
 };

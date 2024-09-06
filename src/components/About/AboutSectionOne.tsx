@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 
 const checkIcon = (
@@ -52,20 +52,11 @@ const AboutSectionOne = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
+            <div className="w-full lg:w-1/2">
+              <div className="relative mx-auto pb-4 lg:mr-0">
+
+                <Image src={"/images/contact/animacion.gif"} alt="xd" width={1920} height={1080} className="w-full mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0" />
+
               </div>
             </div>
           </div>
