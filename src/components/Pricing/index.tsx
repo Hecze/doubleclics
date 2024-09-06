@@ -108,8 +108,8 @@ const Pricing = () => {
           width="665px"
         />
 
-        <div className="w-full">
-          <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
+        <div className="w-full flex flex-wrap md:mb-12 lg:mb-16 justify-center mb-8 gap-12">
+          <div className="flex">
             <span
               onClick={() => setIsMonthly(true)}
               className={`${isMonthly ? "pointer-events-none text-primary" : "text-dark dark:text-white"} mr-4 cursor-pointer text-base font-semibold`}
@@ -137,18 +137,19 @@ const Pricing = () => {
             </span>
 
             {/* Desplegable para seleccionar la moneda */}
-            <select
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value)}
-              className="ml-6 p-2 border rounded-md"
-            >
-              <option value="PEN">Sol Peruano (S/)</option>
-              <option value="BRL">Real Brasileño (R$)</option>
-              <option value="USD">Dólar Estadounidense ($)</option>
-              <option value="CNY">Yuan Chino (¥)</option>
-              <option value="BTC">Bitcoin (₿)</option>
-            </select>
+
           </div>
+          <select
+            value={currency}
+            onChange={(e) => setCurrency(e.target.value)}
+            className=" p-2 mx-6 border rounded-md"
+          >
+            <option value="PEN">Sol Peruano (S/)</option>
+            <option value="BRL">Real Brasileño (R$)</option>
+            <option value="USD">Dólar Estadounidense ($)</option>
+            <option value="CNY">Yuan Chino (¥)</option>
+            <option value="BTC">Bitcoin (₿)</option>
+          </select>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
